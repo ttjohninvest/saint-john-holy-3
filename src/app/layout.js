@@ -149,8 +149,8 @@
               </div>
             </div>
           
-          <div className="grid-container- grid grid-cols-[600px_1fr] gap-4 p-4">
-            <div className="h-[100vh] p-4">
+          <div className="grid grid-cols-1 lg:grid-cols-[1150px_1fr] gap-4 p-4">
+            <div className="order-2 lg:block lg:h-[100vh] p-4 mt-8">
               <div className="border-b-2" ><Link href="/kjv" >KJV Holy Bible</Link></div>
               <div className="border-b-2" ><Link href="/queens-funeral" >Queen of England Funeral Procession</Link></div>
               <div className="border-b-2" ><Link href="/ourladyofpeaceinhonolulu" >Catholic Shrine Basilica of Our Lady of Peace in Honolulu Hawaii</Link></div>
@@ -165,55 +165,50 @@
               <a href="https://www.hprweb.com/" target="_blank">https://www.hprweb.com/</a>
             <div className="mt-4 mb-4 font-bold italic underline"><h1>Catholic Christian Church Magazines and Websites</h1></div>
             <div><a className="flex flex-wrap" href="https://www.americamagazine.org/" target="_blank"></a></div>
-    <div><a className="flex flex-wrap" href="https://subscribe-renew.com/us-catholic-magazine" target="_blank">https://subscribe-renew.com/us-catholic-magazine</a></div>
-    <div><a className="flex flex-wrap" href="https://www.srol.org/assets/Adult-Faith-Formation/Prominent-Catholic-Periodicals.pdf" target="_blank">https://www.srol.org/assets/Adult-Faith-Formation/Prominent-Catholic-Periodicals.pdf</a></div>
-    <div><a className="flex flex-wrap" href="https://www.ncregister.com/topic/pope-francis" target="_blank">https://www.ncregister.com/topic/pope-francis</a></div>
-    <div><a className="flex flex-wrap" href="https://www.osv.com/" target="_blank">https://www.osv.com/</a></div>
-    <div><a className="flex flex-wrap" href="https://thewandererpress.com/" target="_blank">https://thewandererpress.com/</a></div>
-    <div><a className="flex flex-wrap" href="https://adoremus.org/" target="_blank">https://adoremus.org/</a></div>
-    <div><a className="flex flex-wrap" href="https://inluxuryhotels.com/cfnews/" target="_blank">https://inluxuryhotels.com/cfnews/</a></div>
-    <div><a className="flex flex-wrap" href="https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription" target="_blank">https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription</a></div>
-    <div><a className="flex flex-wrap" href="https://keepthefaith.org/latin-mass/" target="_blank">https://keepthefaith.org/latin-mass/</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholicworldreport.com/" target="_blank">https://www.catholicworldreport.com/</a></div>
-    
-    <div><a className="flex flex-wrap" href="https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-" target="_blank">https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-</a></div>
-    <div><a className="flex flex-wrap" href="https://www.liguori.org/catholic-update" target="_blank">https://www.liguori.org/catholic-update</a></div>
-    <div><a className="flex flex-wrap" href="https://upfaithandfamily.com/" target="_blank">https://upfaithandfamily.com/</a></div>
-    <div><a className="flex flex-wrap" href="https://www.franciscanmedia.org/franciscan-spirit-blog/top-catholic-magazines/" target="_blank">https://www.franciscanmedia.org/franciscan-spirit-blog/top-catholic-magazines/</a></div>
-    <div><a className="flex flex-wrap" href="https://insidethevatican.com/" target="_blank">https://insidethevatican.com/</a></div>
-    <div><a className="flex flex-wrap" href="https://www.liguori.org" target="_blank">https://www.liguori.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.newoxfordreview.org" target="_blank">https://www.newoxfordreview.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.USCatholic.org" target="_blank">https://www.USCatholic.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.loamagazine.org" target="_blank">https://www.loamagazine.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.magnificat.net" target="_blank">https://www.magnificat.net</a></div>
-    <div><a className="flex flex-wrap" href="https://www.wau.org" target="_blank">https://www.wau.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.magnificat.net" target="_blank">https://www.magnificat.net</a></div>
-    <div><a className="flex flex-wrap" href="https://www.stmarysmessenger.com" target="_blank">https://www.stmarysmessenger.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.aboutcatholics.com" target="_blank">https://www.aboutcatholics.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.archphila.org" target="_blank">https://www.archphila.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.biblegateway.com" target="_blank">https://www.biblegateway.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholiccity.com" target="_blank">https://www.catholiccity.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.christlife.org" target="_blank">https://www.christlife.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholicnews.com" target="_blank">https://www.catholicnews.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholic.org" target="_blank">https://www.catholic.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholicworldreport.com" target="_blank">https://www.catholicworldreport.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.crisismagazine.com" target="_blank">https://www.crisismagazine.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.usccb.org" target="_blank">https://www.usccb.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.ewtn.com" target="_blank">https://www.ewtn.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.philly.com" target="_blank">https://www.philly.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.lighthousecatholicmedia.org" target="_blank">https://www.lighthousecatholicmedia.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholic-mass-time-com" target="_blank">https://www.catholic-mass-time-com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.mycatholic.com" target="_blank">https://www.mycatholic.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.newadvent.org" target="_blank">https://www.newadvent.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.spiritdaily.com" target="_blank">https://www.spiritdaily.com</a></div>
-    <div><a className="flex flex-wrap" href="https://www.catholic.org/encyclopedia" target="_blank">https://www.catholic.org/encyclopedia</a></div>
-    <div><a className="flex flex-wrap" href="https://www.chnetwork.org" target="_blank">https://www.chnetwork.org</a></div>
-    <div><a className="flex flex-wrap" href="https://www.VaticanNews.va/enhtml" target="_blank">https://www.VaticanNews.va/enhtml</a></div>
-    <div><a className="flex flex-wrap" href="https://www.wau.org/new/4u" target="_blank">https://www.wau.org/new/4u</a></div>
-    <div><a className="flex flex-wrap" href="https://www.wordonfire.org" target="_blank">https://www.wordonfire.org</a></div>
-    
+	<div><a className="flex flex-wrap" href="https://www.aboutcatholics.com" target="_blank">About Catholics</a></div>
+    <div><a className="flex flex-wrap" href="https://www.archphila.org" target="_blank">Archphila</a></div>
+	<div><a className="flex flex-wrap" href="https://adoremus.org/" target="_blank">Adoremus</a></div>
+	<div><a className="flex flex-wrap" href="https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription" target="_blank">Angelus Press</a></div>
+	<div><a className="flex flex-wrap" href="https://www.biblegateway.com" target="_blank">Bible Gateway</a></div>
+	<div><a className="flex flex-wrap" href="https://www.catholic.org" target="_blank">Catholic</a></div>
+	<div><a className="flex flex-wrap" href="https://www.usccb.org" target="_blank">Catholic Bishops, Conference of USA</a></div>
+	<div><a className="flex flex-wrap" href="https://www.catholiccity.com" target="_blank">Catholic City</a></div>
+	<div><a className="flex flex-wrap" href="https://www.catholic.org/encyclopedia" target="_blank">Catholic Encyclopedia</a></div>
+	<div><a className="flex flex-wrap" href="https://www.ewtn.com" target="_blank">Catholic EWTN</a></div>
+	<div><a className="flex flex-wrap" href="https://subscribe-renew.com/us-catholic-magazine" target="_blank">Catholic Magazine USA</a></div>	   
+	<div><a className="flex flex-wrap" href="https://www.catholic-mass-time.com" target="_blank">Catholic Mass Time</a></div>
+	<div><a className="flex flex-wrap" href="https://www.lighthousecatholicmedia.org" target="_blank">Catholic Media, Light House</a></div>
+	<div><a className="flex flex-wrap" href="https://www.mycatholic.com" target="_blank">Catholic, My</a></div>
+	<div><a className="flex flex-wrap" href="https://www.catholicnews.com" target="_blank">Catholic News</a></div>
+	<div><a className="flex flex-wrap" href="https://www.srol.org/assets/Adult-Faith-Formation/Prominent-Catholic-Periodicals.pdf" target="_blank">Catholic Periodicals, Prominent</a></div>
+	<div><a className="flex flex-wrap" href="https://www.ncregister.com/topic/pope-francis" target="_blank">Catholic Register, National</a></div>
+    <div><a className="flex flex-wrap" href="https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-" target="_blank">Catholic Telegraph</a></div>
+    <div><a className="flex flex-wrap" href="https://www.liguori.org/catholic-update" target="_blank">Catholic Update</a></div>
+	<div><a className="flex flex-wrap" href="https://www.USCatholic.org" target="_blank">Catholic, USA</a></div>
+    <div><a className="flex flex-wrap" href="https://www.catholicworldreport.com" target="_blank">Catholic World Report</a></div>
+	<div><a className="flex flex-wrap" href="https://www.christlife.org" target="_blank">Christ Life</a></div>
+    <div><a className="flex flex-wrap" href="https://www.chnetwork.org" target="_blank">Coming Home Network</a></div>
+	<div><a className="flex flex-wrap" href="https://www.usccb.org" target="_blank">Conference of Catholic Bishops USA</a></div>
+	<div><a className="flex flex-wrap" href="https://www.crisismagazine.com" target="_blank">Crisis Magazine</a></div>
+    <div><a className="flex flex-wrap" href="https://www.franciscanmedia.org/franciscan-spirit-blog/top-catholic-magazines/" target="_blank">Franciscan Media</a></div>
+	<div><a className="flex flex-wrap" href="https://insidethevatican.com/" target="_blank">Inside The Vatican</a></div>
+    <div><a className="flex flex-wrap" href="https://keepthefaith.org/latin-mass/" target="_blank">Keep the Faith Latin Mass/</a></div>
+    <div><a className="flex flex-wrap" href="https://www.liguori.org" target="_blank">Liguori</a></div>
+    <div><a className="flex flex-wrap" href="https://www.loamagazine.org" target="_blank">Loa Magazine</a></div>
+    <div><a className="flex flex-wrap" href="https://www.magnificat.net" target="_blank">Magnificat</a></div>
+	<div><a className="flex flex-wrap" href="https://www.newadvent.org" target="_blank">New Advent</a></div>
+    <div><a className="flex flex-wrap" href="https://www.newoxfordreview.org" target="_blank">New Oxford Review</a></div>
+    <div><a className="flex flex-wrap" href="https://www.osv.com/" target="_blank">Our Sunday Visitor</a></div>
+    <div><a className="flex flex-wrap" href="https://www.philly.com" target="_blank">Philly</a></div>
+    <div><a className="flex flex-wrap" href="https://www.stmarysmessenger.com" target="_blank">Saint Marys Messenger</a></div>
+    <div><a className="flex flex-wrap" href="https://www.spiritdaily.com" target="_blank">Spirit Daily</a></div>
+    <div><a className="flex flex-wrap" href="https://upfaithandfamily.com/" target="_blank">Up Faith And Family</a></div>
+    <div><a className="flex flex-wrap" href="https://www.VaticanNews.va/enhtml" target="_blank">Vatican News</a></div>
+	<div><a className="flex flex-wrap" href="https://thewandererpress.com/" target="_blank">Wanderer Press</a></div>
+	<div><a className="flex flex-wrap" href="https://www.wau.org" target="_blank">Word Amoung Us</a></div>
+    <div><a className="flex flex-wrap" href="https://www.wordonfire.org" target="_blank">Word On Fire</a></div>
             </div>
-            <div className="h-[100vh] p-1">{children}</div>
+            <div className="order-1 h-[100vh] p-1">{children}</div>
     
          </div>
           
