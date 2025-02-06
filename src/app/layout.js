@@ -145,7 +145,7 @@ export default function RootLayout({ children }) {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[1150px_1fr] gap-4 p-4">
+        <div className="grid grid-cols-1 lg:grid-cols-[850px_1fr] gap-4 p-4">
           <div className="order-2 lg:block lg:h-[100vh] p-4 mt-8">
             <div className="border-b-2">
               <Link href="/kjv">Holy Bible, KJV</Link>
