@@ -5,13 +5,10 @@ export default function page({ children }) {
   return (
     <div className="border-4 border-white p-4">
       <div className="div flex-col justify-center items-center">
-
-
-
-
-
         <div>
-          <div className="text-center mt-8">Welcome Holy Spirit Adoration Sisters of Christ the King</div>
+          <div className="text-center mt-8">
+            Welcome Holy Spirit Adoration Sisters of Christ the King
+          </div>
           <div className="text-center mt-8-">PEACE BE WITH YOU</div>
           <div className="text-center mt-2 mb-8">
             I lovingly invite you to receive Jesus Christ.
@@ -83,7 +80,7 @@ export default function page({ children }) {
             Salvation Army for about 2 weeks but returned. I was walking to
             Saint Michaels Catholic Church with my KJV Holy Bible. When I was
             walking, I opened the Holy Bible and started to read and as I was
-            reading a felt a suffering come over my whole body. When I stopping
+            reading a felt a suffering come over my whole body. When I stopped
             reading, the suffering would stop. When i got to the church, I saw
             Father Melendez and I told Him what I was happening. He sat me down
             and put his hand on my head and prayed for me. I heard him say "Holy
