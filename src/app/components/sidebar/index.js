@@ -14,14 +14,14 @@ const menuItems = [
     menu: 'About',
     link: '/about',
   },
-  {
-    menu: 'Product',
-    link: '/product',
-  },
-  {
-    menu: 'Services',
-    link: '/services',
-  },
+  // {
+  //   menu: 'Product',
+  //   link: '/product',
+  // },
+  // {
+  //   menu: 'Services',
+  //   link: '/services',
+  // },
   {
     menu: 'Contact Us',
     link: '/contact',
