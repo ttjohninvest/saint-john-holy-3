@@ -12,7 +12,7 @@ import { useMedia } from "react-use";
 // Menu
 const menuItems = [
   {
-    menu: "Saint John's Page 2",
+    menu: "Saint John's Page",
     link: "/",
   },
   {
@@ -151,7 +151,10 @@ export default function RootLayout({ children }) {
               <Link href="/kjv">Holy Bible, KJV</Link>
             </div>
             <div className="mt-4 mb-4 font-bold italic underline">
-              <h1>Catholic Christian Church Saints, Magazines, Websites, Reviews and Movies</h1>
+              <h1>
+                Catholic Christian Church Saints, Magazines, Websites, Reviews
+                and Movies
+              </h1>
             </div>
 
             <div className="border-b-2">
@@ -204,7 +207,7 @@ export default function RootLayout({ children }) {
                 Sister Servants of the Holy Spirit of Perpetual Adoration
               </Link>
             </div>
-           
+
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
