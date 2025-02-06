@@ -9,49 +9,6 @@ export default function page({ children }) {
 
 
 
-        {/* <div>
-          <div className="flex flex-row flex-wrap justify-between h-48">
-            <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
-                src="/mary-with-jesus-2.png"
-                alt="jesus"
-              ></img>
-            </div>
-            <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
-                src="/jesus-christ-3.webp"
-                alt="jesus"
-              ></img>
-            </div>
-            <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
-                src="/jesus-christ-1.webp"
-                alt="cross"
-              ></img>
-            </div>
-            <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
-                src="/angel2sm.png"
-                alt="angel"
-              ></img>
-            </div>
-          </div>
-        </div> */}
-
-
-
 
         <div>
           <div className="text-center mt-8">PEACE BE WITH YOU</div>
