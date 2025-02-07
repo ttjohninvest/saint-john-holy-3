@@ -129,7 +129,9 @@ export default function page({ children }) {
             Jesus Christ. Amen. Yes. Movies I saw recently and I love them both,
             The Gospel of John, English Version The song of Saint Bernadette.
           </div>
-          <img width="100" height="100" className="w-full mt-8" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica"></img>
+          <div><img width="100" height="100" className="w-full mt-8" src="/Precious-Jesus-with-the-teachers.png" alt="Precious Jesus Christ with the teachers"></img></div>
+          <div><img width="100" height="100" className="w-full mt-4" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica"></img></div>
+          <div><img width="100" height="100" className="w-full mt-4" src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png" alt=""></img></div>
         </div>
       </div>
     </div>
