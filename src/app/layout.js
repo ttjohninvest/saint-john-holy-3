@@ -541,15 +541,6 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
-                href="https://www.philly.com"
-                target="_blank"
-              >
-                Philly
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
                 href="https://www.stmarysmessenger.com"
                 target="_blank"
               >
