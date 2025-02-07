@@ -37,7 +37,9 @@ export default function page({ children }) {
             hair. I also saw a green circle and I heard buzzing in my ears. When
             I lifted my head, I was healed. I was so happy. When I got to
             Honolulu, I was troubled, I wanted to be right with Jesus Christ,
-            Holy Father God and the Holy Spirit, I could not eat much. I went to
+            Holy Father God and the Holy Spirit, I could not eat much.
+            
+            {/* I went to
             a non denominational church service and I saw the word "grope" in
             the Holy Bible so I thought that I was suppose to blind myself to
             get right with God so I bought a razor blade. My friend Jacob drove
@@ -69,12 +71,15 @@ export default function page({ children }) {
             looked in the mirror and all of the cuts were taken out of my eyes.
             I was so happy. My precious Jesus Christ healed me. I rejoiced. I
             was with another friend named Marshall and I was told through him to
-            keep knives out of my eyes. I was so happy to hear this. vitamin E,
+            keep knives out of my eyes. I was so happy to hear this. 
+            vitamin E,
             I met a man in his 90s and he said he will never have a heart attack
             because he is taking vitamin E. He did not tell me that if you take
             to much it could damage the heart. I started taking vitamin E but I
             took to much. My precious Jesus Christ healed my heart. I felt a
-            warm feeling in my chest. I was so happy. I was letting a homeless
+            warm feeling in my chest. I was so happy. 
+            */}
+            I was letting a homeless
             man live with me named Mark. I met him at a non denomination church.
             He stayed with me for about 6 to 8 weeks. He left to stay at the
             Salvation Army for about 2 weeks but returned. I was walking to
