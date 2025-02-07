@@ -379,6 +379,15 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
+                href="https://www.liguori.org"
+                target="_blank"
+              >
+                Catholic Publication
+              </a>
+            </div>
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
                 href="https://www.ncregister.com/topic/pope-francis"
                 target="_blank"
               >
@@ -484,15 +493,7 @@ export default function RootLayout({ children }) {
                 Keep the Faith Latin Mass/
               </a>
             </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.liguori.org"
-                target="_blank"
-              >
-                Liguori
-              </a>
-            </div>
+            
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
