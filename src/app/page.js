@@ -16,7 +16,7 @@ export default function page({ children }) {
           </div>
           <div className="text-center mt-8-"> PEACE BE WITH YOU </div>
           <div className="text-center mt-2 mb-8">
-            I lovingly invite you to receive Jesus Christ.
+             I lovingly invite you to receive Jesus Christ.
           </div>
 
           <div>
