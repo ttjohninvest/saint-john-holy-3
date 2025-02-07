@@ -165,71 +165,11 @@ export default function RootLayout({ children }) {
             </div>
 
             <div className="border-b-2">
-              <Link href="/saint-bernadette-movie">
-                Bernadette, Saint, Movie
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/cloisteredlife1">
-                Carmelites of the Carmel of Mary
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/cathedrals-largest">Cathedrals, Largest</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/ourladyofpeaceinhonolulu">
-                Catholic Shrine Basilica of Our Lady of Peace in Honolulu Hawaii
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/christmas-angels">Christmas Angels</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/cloisteredlife-directory">Cloistered Life</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/gospel-of-john-movie"> Gospel of John, Movie</Link>
-            </div>
-            <div className="border-b-2">
-              <a href="https://www.hprweb.com/" target="_blank">
-                Homiletic Pastoral Review
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/saint-marianne-cope">Marianne Cope, Saint</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/saint-mary-mazzarello">
-                Mary Mazzarello, Saint, Movie
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/queens-funeral">
-                Queen of England Funeral Procession
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/sister-servants-of-the-holy-spirit">
-                Sister Servants of the Holy Spirit of Perpetual Adoration
-              </Link>
-            </div>
-
-            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.americamagazine.org/"
                 target="_blank"
-              ></a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.aboutcatholics.com"
-                target="_blank"
-              >
-                About Catholics
-              </a>
+              >America Magazine</a>
             </div>
             <div className="border-b-2">
               <a
@@ -259,6 +199,11 @@ export default function RootLayout({ children }) {
               </a>
             </div>
             <div className="border-b-2">
+              <Link href="/saint-bernadette-movie">
+                Bernadette, Saint, Movie
+              </Link>
+            </div>
+            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.biblegateway.com"
@@ -266,6 +211,11 @@ export default function RootLayout({ children }) {
               >
                 Bible Gateway
               </a>
+            </div>
+            <div className="border-b-2">
+              <Link href="/cloisteredlife1">
+                Carmelites of the Carmel of Mary
+              </Link>
             </div>
 
             <div className="border-b-2">
@@ -276,6 +226,9 @@ export default function RootLayout({ children }) {
               >
                 Cathedrals, Beautiful
               </a>
+            </div>
+            <div className="border-b-2">
+              <Link href="/cathedrals-largest">Cathedrals, Largest</Link>
             </div>
             <div className="border-b-2">
               <a
@@ -293,6 +246,15 @@ export default function RootLayout({ children }) {
                 target="_blank"
               >
                 Catholic Bishops, Conference of USA
+              </a>
+            </div>
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.aboutcatholics.com"
+                target="_blank"
+              >
+                Catholics, About
               </a>
             </div>
             <div className="border-b-2">
@@ -395,6 +357,11 @@ export default function RootLayout({ children }) {
               </a>
             </div>
             <div className="border-b-2">
+              <Link href="/ourladyofpeaceinhonolulu">
+                Catholic Shrine Basilica of Our Lady of Peace in Honolulu Hawaii
+              </Link>
+            </div>
+            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-"
@@ -439,6 +406,13 @@ export default function RootLayout({ children }) {
                 Christ Life
               </a>
             </div>
+           
+            <div className="border-b-2">
+              <Link href="/christmas-angels">Christmas Angels</Link>
+            </div>
+            <div className="border-b-2">
+              <Link href="/cloisteredlife-directory">Cloistered Life</Link>
+            </div>
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -458,6 +432,9 @@ export default function RootLayout({ children }) {
               </a>
             </div>
             <div className="border-b-2">
+              <Link href="/saint-marianne-cope">Cope, Marianne, Saint</Link>
+            </div>
+            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.crisismagazine.com"
@@ -466,6 +443,7 @@ export default function RootLayout({ children }) {
                 Crisis Magazine
               </a>
             </div>
+            
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -473,6 +451,14 @@ export default function RootLayout({ children }) {
                 target="_blank"
               >
                 Franciscan Media
+              </a>
+            </div>
+            <div className="border-b-2">
+              <Link href="/gospel-of-john-movie"> Gospel of John, Movie</Link>
+            </div>
+            <div className="border-b-2">
+              <a href="https://www.hprweb.com/" target="_blank">
+                Homiletic Pastoral Review
               </a>
             </div>
             <div className="border-b-2">
@@ -513,6 +499,11 @@ export default function RootLayout({ children }) {
               </a>
             </div>
             <div className="border-b-2">
+              <Link href="/saint-mary-mazzarello">
+                Mazzarello, Mary, Saint, Movie
+              </Link>
+            </div>
+            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.newadvent.org"
@@ -540,6 +531,11 @@ export default function RootLayout({ children }) {
               </a>
             </div>
             <div className="border-b-2">
+              <Link href="/queens-funeral">
+                Queen of England Funeral Procession
+              </Link>
+            </div>
+            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.stmarysmessenger.com"
@@ -547,6 +543,11 @@ export default function RootLayout({ children }) {
               >
                 Saint Marys Messenger
               </a>
+            </div>
+            <div className="border-b-2">
+              <Link href="/sister-servants-of-the-holy-spirit">
+                Sister Servants of the Holy Spirit of Perpetual Adoration
+              </Link>
             </div>
             <div className="border-b-2">
               <a
