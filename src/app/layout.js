@@ -169,7 +169,7 @@ export default function RootLayout({ children }) {
                 className="flex flex-wrap"
                 href="https://www.americamagazine.org/"
                 target="_blank"
-              >America Magazine</a>
+              >America, The Jesuit Review</a>
             </div>
             <div className="border-b-2">
               <a
