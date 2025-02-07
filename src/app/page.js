@@ -1,10 +1,12 @@
 "use client";
+
+import Image from 'next/image'
 import React from "react";
 
 export default function page({ children }) {
   return (
-    <div className="border-4 border-white p-4">
-      <div className="div flex-col justify-center items-center">
+    <div className="border-4- border-white- p-4">
+      <div className="">
         <div>
           <div className="text-center mt-8">
             Welcome Holy Spirit Adoration Sisters of Christ the King
@@ -122,8 +124,9 @@ export default function page({ children }) {
             and so happy. Thank you my precious Jesus Christ, Holy Father God
             and the Holy Spirit through the name of my precious Lord and Savior
             Jesus Christ. Amen. Yes. Movies I saw recently and I love them both,
-            The Gospel of John, English Version The song of Saint Bernadette
+            The Gospel of John, English Version The song of Saint Bernadette.
           </div>
+          <img width="100" height="100" className="w-full mt-8" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica"></img>
         </div>
       </div>
     </div>

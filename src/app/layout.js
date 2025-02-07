@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image"
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { GrClose } from "react-icons/gr";
@@ -60,7 +61,7 @@ export default function RootLayout({ children }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main>
+        <div>
           <div className="flex justify-between p-2 shadow-lg items-center">
             {/* Logo */}
             <div>
@@ -102,51 +103,57 @@ export default function RootLayout({ children }) {
               </div>
             </div>
           </div>
-        </main>
+        </div>
 
         <div>
-          <div className="flex flex-row flex-wrap justify-between h-48">
+        <div className="flex flex-col justify-center flex-wrap">
+        
+        <div className="h-96 lg:h-48">
+          <div className="flex flex-row flex-wrap justify-between">
             <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
+              <Image
+                width="50"
+                height="50"
+                className="m-4 w-48 h-48 rounded-full"
                 src="/mary-with-jesus-2.png"
                 alt="jesus"
-              ></img>
+              ></Image>
             </div>
             <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
+              <Image
+                width="50"
+                height="50"
+                className="m-4 w-48 h-48 rounded-full"
                 src="/jesus-christ-3.webp"
                 alt="jesus"
-              ></img>
+              ></Image>
             </div>
             <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
+              <Image
+                width="50"
+                height="50"
+                className="m-4 w-48 h-48- rounded-full"
                 src="/jesus-christ-1.webp"
                 alt="cross"
-              ></img>
+              ></Image>
             </div>
             <div>
-              <img
-                width="10"
-                height="10"
-                className="m-4 w-48 h-48 rotate-20- rounded-full"
+              <Image
+                width="50"
+                height="50"
+                className="m-4 w-48 h-48 rounded-full"
                 src="/angel2sm.png"
                 alt="angel"
-              ></img>
+              ></Image>
             </div>
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[850px_1fr] gap-4 p-4">
-          <div className="order-2 lg:block lg:h-[100vh] p-4 mt-8">
+
+        <div className="h-[100vh]- p-1">{children}</div>
+          
+          <div className="lg:block lg:h-[100vh] p-4 mt-8">
             <div className="border-b-2">
               <Link href="/kjv">Holy Bible, KJV</Link>
             </div>
@@ -604,8 +611,13 @@ export default function RootLayout({ children }) {
               </a>
             </div>
           </div>
-          <div className="order-1 h-[100vh] p-1">{children}</div>
+
+          {/* <div className="order-1 h-[100vh] p-1">{children}</div> */}
+
+        </div> {/* grid */}
         </div>
+        </div>
+
       </body>
     </html>
   );
