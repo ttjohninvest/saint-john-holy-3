@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from 'next/link'
 
 export default function page({ children }) {
   return (
@@ -160,10 +161,9 @@ export default function page({ children }) {
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
           </div>
-          {/* <div className=""><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100"  className="w-full mt-4" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div> */}
           <div>
             <div
-              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat"
+              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat -mt-8"
               data-twe-ripple-init
               data-twe-ripple-color="light"
             >
@@ -177,6 +177,30 @@ export default function page({ children }) {
               </a>
             </div>
           </div>
+          <div>
+            <div
+              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat mt-4"
+              data-twe-ripple-init
+              data-twe-ripple-color="light"
+            >
+              <img
+                src="/saint-brigid.png"
+                className="max-w-xs- w-full"
+                alt="Louvre"
+              />
+
+              {/* <a href="https://www.youtube.com/watch?v=gE8EDuVR97M">
+                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              </a> */}
+
+              
+              <Link href="/saint-brigid-of-ireland" title="Saint Brigid of Ireland">
+              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              </Link>
+            
+            </div>
+          </div>
+         
         </div>
       </div>
     </div>

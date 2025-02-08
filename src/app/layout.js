@@ -212,6 +212,7 @@ export default function RootLayout({ children }) {
                 Bible Gateway
               </a>
             </div>
+           
             <div className="border-b-2">
               <Link href="/cloisteredlife1">
                 Carmelites of the Carmel of Mary
