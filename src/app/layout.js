@@ -535,6 +535,12 @@ export default function RootLayout({ children }) {
                 Queen of England Funeral Procession
               </Link>
             </div>
+            
+            <div className="border-b-2">
+              <Link href="/saint-rita-of-cascia">
+                Rita, Saint of Cascia
+              </Link>
+            </div>
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"

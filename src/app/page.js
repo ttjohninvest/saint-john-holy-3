@@ -133,8 +133,23 @@ export default function page({ children }) {
           <div className=""><img width="100" height="100" className="w-full mt-8" src="/Precious-Jesus-with-the-teachers.png" alt="Precious Jesus Christ with the teachers" title="A picture of my precious Jesus Christ at 12 years old with the teachers."></img></div>
           <div className=""><img width="100" height="100" className="w-full mt-4" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica" title="Saint Peter's Basilica"></img></div>
           <div className=""><img width="100" height="100" className="w-full mt-4" src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png" alt="" title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."></img></div>
-          <div className=""><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100"  className="w-full mt-4" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div>
-        
+          {/* <div className=""><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100"  className="w-full mt-4" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div> */}
+          <div>
+         <div
+  className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat"
+  data-twe-ripple-init
+  data-twe-ripple-color="light">
+  <img
+    src="/picture-of-jesus-christ-healing.png"
+    className="max-w-xs- w-full"
+    alt="Louvre" />
+  <a href="https://www.saintritashrine.org/events/2025-february-healing-mass">
+    <div
+      className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+  </a>
+</div>      
+         
+    </div>
         </div>
       </div>
     </div>
