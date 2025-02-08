@@ -129,10 +129,11 @@ export default function page({ children }) {
             Jesus Christ. Amen. Yes. Movies I saw recently and I love them both,
             The Gospel of John, English Version The song of Saint Bernadette, movie.
           </div>
+
           <div><img width="100" height="100" className="w-full mt-8" src="/Precious-Jesus-with-the-teachers.png" alt="Precious Jesus Christ with the teachers" title="A picture of my precious Jesus Christ at 12 years old with the teachers."></img></div>
           <div><img width="100" height="100" className="w-full mt-4" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica" title="Saint Peter's Basilica"></img></div>
-          <div><img width="100" height="100" className="w-full mt-4 mx-auto" src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png" alt="" title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."></img></div>
-          <div><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100" className="w-full mt-4 mx-auto" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div>
+          <div><img width="100" height="100" className="w-full mt-4" src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png" alt="" title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."></img></div>
+          <div className="w-full mt-4"><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100"  className="w-full mt-4" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div>
         
         </div>
       </div>
