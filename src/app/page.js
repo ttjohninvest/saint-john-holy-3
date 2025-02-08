@@ -20,8 +20,8 @@ export default function page({ children }) {
           </div>
 
           <div>
-            KJV Romans 10:13: For whosoever shall call upon the name of the Lord
-            shall be saved.
+            <span className="text-green-500">KJV Romans 10:13: For whosoever shall call upon the name of the Lord
+            shall be saved.</span>
           </div>
           <div>
             John 12:32: Jesus Christ saith "And I, if I be lifted up from the
@@ -130,10 +130,10 @@ export default function page({ children }) {
             The Gospel of John, English Version The song of Saint Bernadette, movie.
           </div>
 
-          <div><img width="100" height="100" className="w-full mt-8" src="/Precious-Jesus-with-the-teachers.png" alt="Precious Jesus Christ with the teachers" title="A picture of my precious Jesus Christ at 12 years old with the teachers."></img></div>
-          <div><img width="100" height="100" className="w-full mt-4" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica" title="Saint Peter's Basilica"></img></div>
-          <div><img width="100" height="100" className="w-full mt-4" src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png" alt="" title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."></img></div>
-          <div className="w-full mt-4"><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100"  className="w-full mt-4" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div>
+          <div className=""><img width="100" height="100" className="w-full mt-8" src="/Precious-Jesus-with-the-teachers.png" alt="Precious Jesus Christ with the teachers" title="A picture of my precious Jesus Christ at 12 years old with the teachers."></img></div>
+          <div className=""><img width="100" height="100" className="w-full mt-4" src="/saint-peters-basilica-1.png" alt="Saint Peter's Basilica" title="Saint Peter's Basilica"></img></div>
+          <div className=""><img width="100" height="100" className="w-full mt-4" src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png" alt="" title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."></img></div>
+          <div className=""><a href="https://www.saintritashrine.org/events/2025-february-healing-mass" target="_blank"><img width="100" height="100"  className="w-full mt-4" src="/picture-of-jesus-christ-healing.png" alt="" title="A picture of Jesus Christ healing"></img></a></div>
         
         </div>
       </div>
