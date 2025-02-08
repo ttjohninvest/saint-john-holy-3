@@ -163,23 +163,6 @@ export default function RootLayout({ children }) {
                 and Movies
               </h1>
             </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.americamagazine.org/"
-                target="_blank"
-              >America Magazine, The Jesuit Review</a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.archphila.org"
-                target="_blank"
-              >
-                Archphila
-              </a>
-            </div>
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -192,10 +175,27 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
+                href="https://www.americamagazine.org/"
+                target="_blank"
+              >America Magazine, The Jesuit Review</a>
+            </div>
+           
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
                 href="https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription"
                 target="_blank"
               >
                 Angelus Press
+              </a>
+            </div>
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.archphila.org"
+                target="_blank"
+              >
+                Archdiocese of Philadelphia
               </a>
             </div>
             <div className="border-b-2">
