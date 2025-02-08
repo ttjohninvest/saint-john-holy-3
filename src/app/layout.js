@@ -476,7 +476,7 @@ export default function RootLayout({ children }) {
                 href="https://keepthefaith.org/latin-mass/"
                 target="_blank"
               >
-                Keep the Faith Latin Mass/
+                Keep the Faith Latin Mass
               </a>
             </div>
             
