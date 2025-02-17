@@ -413,14 +413,11 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/vintage-baroque-angel-digital-art.png"
+              src="/vintage-baroque-angel-digital-art.jpg"
               alt=""
               title="A picture of a holy angel"
             ></img>
           </div>
-
-          
-         
         </div>
       </div>
     </div>
