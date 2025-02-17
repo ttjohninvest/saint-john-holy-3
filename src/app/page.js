@@ -213,17 +213,213 @@ export default function page({ children }) {
                 alt="Louvre"
               />
 
-              {/* <a href="https://www.youtube.com/watch?v=gE8EDuVR97M">
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-              </a> */}
-
-              
               <Link href="/singing-of-the-holy-rosary" title="Singing of the Holy Rosary">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
               </Link>
             
             </div>
           </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/adoration-1.png"
+              alt=""
+              title="Adoration of the Eucharist."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/adoration-2.png"
+              alt=""
+              title="Adoration of the Eucharist."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/blessed-mother-mary-1.png"
+              alt=""
+              title="A picture of the blessed mother Mary."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/adoration-2.png"
+              alt=""
+              title="Adoration of the Eucharist."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/father-aledel.png"
+              alt=""
+              title="Father Aledel"
+            ></img>
+          </div>
+         
+
+         <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/holy-precious-jesus-with-his-precious-blessed-mother-mary.png"
+              alt=""
+              title="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/jesus-christ-2.webp"
+              alt=""
+              title="A precious picture of Jesus Christ who rose from the dead is wonderful."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/person-in-the-clouds.png"
+              alt=""
+              title="A person in the clouds"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/precious-queen-with-jesus-now.png"
+              alt=""
+              title="Precious beloved Queen of England who is with Jesus Christ now."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-catherine-of-miraculous-medal-2.png"
+              alt=""
+              title="A picture of saint Catherine of miraculous medal"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-catherine-of-miraculous-medal.png"
+              alt=""
+              title="A wonderful picture of saint Catherine of miraculous medal"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-catherine-with-mother-mary-in-her-chapel.png"
+              alt=""
+              title="Saint Catherine with blessed mother mary in her convent chapel"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-catherine-of-miraculous-medal-2.png"
+              alt=""
+              title="A picture of saint Catherine of miraculous medal"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-vincent-1.png"
+              alt=""
+              title="A picture of saint Vincent"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-vincent-2.png"
+              alt=""
+              title="A picture of saint Vincent"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/saint-with-vision-of-the-blessed-mary.png"
+              alt=""
+              title="Saint Catherine with vision of the blessed mother Mary"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/vincentian-fathers-and-sisters-of-charity-1.png"
+              alt=""
+              title="A picture of Vincentian fathers and the sisters of charity"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/vintage-baroque-angel-digital-art.png"
+              alt=""
+              title="A picture of a holy angel"
+            ></img>
+          </div>
+
+          
          
         </div>
       </div>
