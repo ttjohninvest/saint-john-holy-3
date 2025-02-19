@@ -531,6 +531,17 @@ export default function RootLayout({ children }) {
                 Our Sunday Visitor
               </a>
             </div>
+            
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://fineartamerica.com/shop/canvas+prints/padre+pio?utm_source=bing&utm_medium=cpc&utm_campaign=DSA%20-%20Shop%20Pages&utm_content=Shop%20Pages&msclkid=6979599a49881ff3f6873e2ec5d1a0e7&utm_term=%2Fshop%2F"
+                target="_blank"
+              >
+                Pio, Padre
+              </a>
+            </div>
+            
             <div className="border-b-2">
               <Link href="/queens-funeral">
                 Queen of England Funeral Procession

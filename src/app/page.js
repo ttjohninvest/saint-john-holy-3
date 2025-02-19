@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function page({ children }) {
   return (
@@ -151,35 +152,129 @@ export default function page({ children }) {
               title="Saint Peter's Basilica"
             ></img>
           </div>
+
           <div className="">
             <img
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png"
-              alt=""
+              src="/saint-brigid.png"
+              alt="Saint Brigid"
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
           </div>
-          <div>
-            <div
-              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat -mt-8"
-              data-twe-ripple-init
-              data-twe-ripple-color="light"
-            >
-              <img
-                src="/picture-of-jesus-christ-healing.png"
-                className="max-w-xs- w-full"
-                alt="Louvre"
-              />
-              <a href="https://www.saintritashrine.org/events/2025-february-healing-mass">
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-              </a>
-            </div>
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4 border-2 border-blue-500"
+              src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png"
+              alt="a"
+              title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
+            ></img>
           </div>
-          <div>
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/blessed-mother-mary-1.png"
+              alt=""
+              title="A picture of the blessed mother Mary."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/adoration-2.png"
+              alt=""
+              title="Adoration of the Eucharist."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/father-aledel.png"
+              alt=""
+              title="Father Aledel"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/holy-precious-jesus-with-his-precious-blessed-mother-mary.png"
+              alt=""
+              title="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/adoration-1.png"
+              alt=""
+              title="Adoration of the Eucharist."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/jesus-christ-2.png"
+              alt=""
+              title="A precious picture of Jesus Christ who rose from the dead is wonderful."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/person-in-the-clouds.jpg"
+              alt="a"
+              title="A person in the clouds"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/precious-queen-with-jesus-now.png"
+              alt=""
+              title="Precious beloved Queen of England who is with Jesus Christ now."
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/saint-catherine-of-miraculous-medal-2.png"
+              alt=""
+              title="A picture of saint Catherine of miraculous medal"
+            ></img>
+          </div> 
+
+                   
             <div
-              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat mt-4"
+              className="relative- max-w-xs- w-full overflow-hidden- bg-cover- bg-no-repeat- mt-4 "
               data-twe-ripple-init
               data-twe-ripple-color="light"
             >
@@ -188,27 +283,21 @@ export default function page({ children }) {
                 className="max-w-xs- w-full"
                 alt="Louvre"
               />
-
-              {/* <a href="https://www.youtube.com/watch?v=gE8EDuVR97M">
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-              </a> */}
-
-              
+  
               <Link href="/saint-brigid-of-ireland" title="Saint Brigid of Ireland">
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              <div className="absolute- bottom-0- left-0- right-0- top-0- h-full- w-full- overflow-hidden- bg-[hsl(0,0%,98.4%,0.2)]- bg-fixed- opacity-0- transition- duration-300- ease-in-out- hover:opacity-100-"></div>
               </Link>
             
             </div>
-          </div>
 
           <div>
             <div
-              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat mt-4"
+              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat mt-4 "
               data-twe-ripple-init
               data-twe-ripple-color="light"
             >
               <img
-                src="/singing-of-the-holy-rosary.png"
+                src="/singing-of-the-holy-rosary-2.png"
                 className="max-w-xs- w-full"
                 alt="Louvre"
               />
@@ -220,122 +309,30 @@ export default function page({ children }) {
             </div>
           </div>
 
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/adoration-1.png"
-              alt=""
-              title="Adoration of the Eucharist."
-            ></img>
+          <div>
+            <div
+              className="relative- w-full overflow-hidden- bg-cover- bg-no-repeat- mt-4 "
+              data-twe-ripple-init
+              data-twe-ripple-color="light"
+            >
+              <img
+                src="/picture-of-jesus-christ-healing.png"
+                className="max-w-xs- w-full"
+                alt="A beautiful picture of Jesus Christ healing. Yes."
+              />
+              <a href="https://www.saintritashrine.org/events/2025-february-healing-mass">
+                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              </a>
+            </div>
           </div>
 
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/adoration-2.png"
-              alt=""
-              title="Adoration of the Eucharist."
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/blessed-mother-mary-1.png"
-              alt=""
-              title="A picture of the blessed mother Mary."
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/adoration-2.png"
-              alt=""
-              title="Adoration of the Eucharist."
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/father-aledel.png"
-              alt=""
-              title="Father Aledel"
-            ></img>
-          </div>
+          
          
-
-         <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/holy-precious-jesus-with-his-precious-blessed-mother-mary.png"
-              alt=""
-              title="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
-            ></img>
-          </div>
-
           <div className="">
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
-              src="/jesus-christ-2.webp"
-              alt=""
-              title="A precious picture of Jesus Christ who rose from the dead is wonderful."
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/person-in-the-clouds.png"
-              alt=""
-              title="A person in the clouds"
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/precious-queen-with-jesus-now.png"
-              alt=""
-              title="Precious beloved Queen of England who is with Jesus Christ now."
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
-              src="/saint-catherine-of-miraculous-medal-2.png"
-              alt=""
-              title="A picture of saint Catherine of miraculous medal"
-            ></img>
-          </div>
-
-          <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/saint-catherine-of-miraculous-medal.png"
               alt=""
               title="A wonderful picture of saint Catherine of miraculous medal"
@@ -346,7 +343,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/saint-catherine-with-mother-mary-in-her-chapel.png"
               alt=""
               title="Saint Catherine with blessed mother mary in her convent chapel"
@@ -357,7 +354,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/saint-catherine-of-miraculous-medal-2.png"
               alt=""
               title="A picture of saint Catherine of miraculous medal"
@@ -368,7 +365,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/saint-vincent-1.png"
               alt=""
               title="A picture of saint Vincent"
@@ -379,7 +376,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/saint-vincent-2.png"
               alt=""
               title="A picture of saint Vincent"
@@ -390,7 +387,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/saint-with-vision-of-the-blessed-mary.png"
               alt=""
               title="Saint Catherine with vision of the blessed mother Mary"
@@ -401,7 +398,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/vincentian-fathers-and-sisters-of-charity-1.png"
               alt=""
               title="A picture of Vincentian fathers and the sisters of charity"
@@ -412,7 +409,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
-              className="w-full mt-8"
+              className="w-full mt-4"
               src="/vintage-baroque-angel-digital-art.jpg"
               alt=""
               title="A picture of a holy angel"
