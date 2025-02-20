@@ -401,7 +401,7 @@ export default function page({ children }) {
               className="w-full mt-4"
               src="/vincentian-fathers-and-sisters-of-charity-1.png"
               alt=""
-              title="A picture of Vincentian fathers and the sisters of charity"
+              title="A picture of Vincentian fathers and the sisters of charity."
             ></img>
           </div>
 
