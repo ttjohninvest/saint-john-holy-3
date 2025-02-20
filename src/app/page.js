@@ -415,6 +415,19 @@ export default function page({ children }) {
               title="A picture of a holy angel"
             ></img>
           </div>
+		  
+		   <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/nun-day-in-the-life.png"
+              alt=""
+              title="Nun, day in the life"
+            ></img>
+          </div>
+
+          
         </div>
       </div>
     </div>

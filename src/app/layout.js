@@ -119,6 +119,7 @@ export default function RootLayout({ children }) {
                 alt="jesus"
               ></Image>
             </div>
+
             <div>
               <Image
                 width="50"
@@ -522,6 +523,38 @@ export default function RootLayout({ children }) {
                 New Oxford Review
               </a>
             </div>
+			      <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.youtube.com/watch?v=fRtBKz-48NI"
+                target="_blank"
+              >
+                Nun, day in the life, Video Documentary
+              </a>
+            </div>
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://cloisteredlife.com/directory/salt-lake-city"
+                target="_blank"
+              >
+                Nuns, Carmelite, Utah
+              </a>
+            </div>
+            
+			 <div className="border-b-2">
+              <Link href="/nuns-carmelite-slc-utah">Nuns, Carmelite, Utah</Link>
+            </div>
+			 <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href=""
+                target="_blank"
+              >
+               Nuns, Carmelite, Cloistered Life, Utah 
+              </a>
+            </div>
+            
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
