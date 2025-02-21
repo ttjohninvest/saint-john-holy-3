@@ -621,7 +621,7 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
-                href="https://www.VaticanNews.va/enhtml"
+                href="https://www.vaticannews.va/en.html"
                 target="_blank"
               >
                 Vatican News
