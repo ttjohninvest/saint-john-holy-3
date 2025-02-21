@@ -423,7 +423,7 @@ export default function page({ children }) {
               className="w-full mt-4"
               src="/nun-day-in-the-life.png"
               alt=""
-              title="Nun, day in the life"
+              title="Nun, day in the life "
             ></img>
           </div>
 
