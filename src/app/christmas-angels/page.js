@@ -8,6 +8,6 @@ export default function page() {
    
   return (
     
-    <div><iframe className="w-full h-[100vh]" src="https://thegraphicsfairy.com/beautiful-vintage-holy-angel-image/" title="description"></iframe></div>
+    <div><iframe className="w-full h-[100vh] rounded-md" src="https://thegraphicsfairy.com/beautiful-vintage-holy-angel-image/" title="description"></iframe></div>
   )
 }
