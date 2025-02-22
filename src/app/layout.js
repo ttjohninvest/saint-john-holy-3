@@ -554,7 +554,12 @@ export default function RootLayout({ children }) {
                Nuns, Carmelite, Cloistered Life, Utah 
               </a>
             </div>
-            
+            <div className="border-b-2">
+              <Link href="/nuns-passionate">Nuns, Passionate, Cloistered life</Link>
+            </div>
+            <div className="border-b-2">
+              <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionate, Day in the Life</Link>
+            </div>
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
