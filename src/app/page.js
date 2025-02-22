@@ -426,7 +426,27 @@ export default function page({ children }) {
               title="Nun, day in the life "
             ></img>
           </div>
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/passionate-nuns-mother.png"
+              alt=""
+              title="Passionate nuns mother"
+            ></img>
+          </div>
 
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4 h-[100vh]-"
+              src="/mary-with-jesus-4.png"
+              alt=""
+              title="Mary with Jesus"
+            ></img>
+          </div>
           
         </div>
       </div>
