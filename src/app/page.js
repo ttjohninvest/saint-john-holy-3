@@ -15,7 +15,8 @@ export default function page({ children }) {
           <div className="text-center">
             Welcome Institute for Religious Life
           </div>
-          <div className="text-center mt-8-"> PEACE BE WITH YOU </div>
+          <div className="text-center"> PEACE BE WITH YOU </div>
+          <div className="text-center">The main menu is after the pictures.</div>
           <div className="text-center mt-2 mb-8">
             I lovingly invite you to receive Jesus Christ.
           </div>
@@ -441,7 +442,7 @@ export default function page({ children }) {
             <img
               width="100"
               height="150"
-              className="w-full mt-4 h-[100vh]-"
+              className="w-full mt-4"
               src="/mary-with-jesus-4.png"
               alt=""
               title="Mary with Jesus"
