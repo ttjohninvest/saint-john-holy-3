@@ -4,7 +4,7 @@ import "./globals.css";
 
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/image"
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { GrClose } from "react-icons/gr";
@@ -61,30 +61,33 @@ export default function RootLayout({ children }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
+       
+
+        <div className="flex flex-col justify-center flex-wrap">
+        
+       
+
+        {/* <div className="theGrid grid- grid-cols-1- lg:grid-cols-[2fr_1fr]- gap-4- p-4">  */}
+        <div className="theGrid-">
+          
+        <div className="h-[100vh]- p-1">
+          {children}
+        </div>
+          
+          <div className="lg:block lg:h-[100vh] p-4 mt-8">
+           
+            <div className="border-b-2">
+              <a href="https://www.usccb.org/resources/2024cal.pdf">Liturgical Calendar</a>
+            </div>
+
+          </div>
+
+         
+
+        </div>
+        </div>
         
 
-        <div>
-          <div className="flex flex-col justify-center flex-wrap">
-            
-            <div className="grid grid-cols-1 lg:grid-cols-[850px_1fr] gap-4 p-4">
-              {/* <div className="h-[100vh]- p-1">{children}</div> */}
-
-              <div className="lg:block lg:h-[100vh] p-4 mt-8">
-               
-                <div className="border-b-2">
-                  <a href="https://www.usccb.org/resources/2024cal.pdf">
-                    Liturgical Calendar
-                  </a>
-                </div>
-
-                
-              </div>
-
-              
-            </div>
-            
-          </div>
-        </div>
       </body>
     </html>
   );

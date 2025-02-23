@@ -145,19 +145,19 @@ export default function RootLayout({ children }) {
           </div>
         </div>
 
-        <div className="grid- grid-cols-1- lg:grid-cols-[850px_1fr]- gap-4- p-4">
+        <div className="grid grid-cols-1 lg:grid-cols-[850px_1fr] gap-4 p-4">
 
         <div className="h-[100vh]- p-1">{children}</div>
           
           <div className="lg:block lg:h-[100vh] p-4 mt-8">
-            <div className="border-b-2">
+            {/* <div className="border-b-2">
               <Link href="/kjv">Holy Bible, KJV</Link>
-            </div>
+            </div> */}
             <div className="border-b-2">
               <a href="https://www.usccb.org/resources/2024cal.pdf">Liturgical Calendar</a>
             </div>
 
-            <div className="mt-4 mb-4 font-bold italic underline">
+            {/* <div className="mt-4 mb-4 font-bold italic underline">
               <h1>
                 Catholic Christian Church Saints, Magazines, Websites, Reviews
                 and Movies
@@ -657,9 +657,10 @@ export default function RootLayout({ children }) {
               >
                 Word On Fire
               </a>
-            </div>
+            </div> */}
           </div>
 
+          {/* <div className="order-1 h-[100vh] p-1">{children}</div> */}
 
         </div> {/* grid */}
         </div>
