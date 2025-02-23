@@ -150,9 +150,9 @@ export default function RootLayout({ children }) {
         <div className="h-[100vh]- p-1">{children}</div>
           
           <div className="lg:block lg:h-[100vh] p-4 mt-8">
-            <div className="border-b-2">
+            {/* <div className="border-b-2">
               <Link href="/kjv" target="_blank">Holy Bible, KJV</Link>
-            </div>
+            </div> */}
             <div className="border-b-2">
               <Link href="https://www.usccb.org/resources/2024cal.pdf" target="_blank">Liturgical Calendar</Link>
             </div>
