@@ -32,7 +32,10 @@ const menuItems = [
     menu: "You May Contact Me",
     link: "/contact",
   },
- 
+  {
+    menu: "Restore Pictures",
+    link: "/restore-pictures",
+  },
  
 ];
 
