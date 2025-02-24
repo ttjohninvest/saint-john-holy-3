@@ -586,6 +586,16 @@ export default function RootLayout({ children }) {
                 Pio, Padre
               </a>
             </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://passionist.org/wp-content/uploads/2020/12/Diary_StudyGuide_cp.pdf"
+                target="_blank"
+              >
+                Prayer Guide, Saint Paul of the Cross, 1720
+              </a>
+            </div>
             
             <div className="border-b-2">
               <Link href="/queens-funeral">
