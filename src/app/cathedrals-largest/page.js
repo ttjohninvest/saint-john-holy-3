@@ -1,8 +1,10 @@
 import React from "react";
+import Link from 'next/link'
 
 export default function page() {
   return (
     <div>
+      <div className="mt-6"><Link href="/">Bring back the Pictures</Link></div>
       <iframe
         width="560"
         height="315"
