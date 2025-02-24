@@ -1,11 +1,15 @@
-'use client'
-import React from 'react'
-import Link from 'next/link'
+"use client";
+import React from "react";
+import Link from "next/link";
 export default function page() {
-   
-  return (    
+  return (
     <div>
-      <div className="mt-6"><Link href="/">Bring back the Pictures</Link></div>
-      <iframe className="w-full h-[100vh] rounded-md" src="https://www.sspsap-motherhouse.nl/where-we-are/" title="description"></iframe></div>
-  )
+      {/*<div className="mt-6"><Link href="/">Bring back the Pictures</Link></div>*/}
+      <iframe
+        className="w-full h-[100vh] rounded-md"
+        src="https://www.sspsap-motherhouse.nl/where-we-are/"
+        title="description"
+      ></iframe>
+    </div>
+  );
 }
