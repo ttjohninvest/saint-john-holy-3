@@ -9,6 +9,10 @@ export default function page({ children }) {
     <div className="border-4- border-white- p-4">
       <div className="">
         <div>
+
+           
+       
+		
           <div className="text-center mt-8">
             Welcome Holy Spirit Adoration Sisters of Christ the King
           </div>
@@ -16,7 +20,9 @@ export default function page({ children }) {
             Welcome Institute for Religious Life
           </div>
           <div className="text-center"> PEACE BE WITH YOU </div>
-          <div className="text-center">The main menu is after the pictures.</div>
+          <div className="text-center">
+            The main menu is after the pictures.
+          </div>
           <div className="text-center mt-2 mb-8">
             I lovingly invite you to receive Jesus Christ.
           </div>
@@ -271,25 +277,26 @@ export default function page({ children }) {
               alt=""
               title="A picture of saint Catherine of miraculous medal"
             ></img>
-          </div> 
+          </div>
 
-                   
-            <div
-              className="relative- max-w-xs- w-full overflow-hidden- bg-cover- bg-no-repeat- mt-4 "
-              data-twe-ripple-init
-              data-twe-ripple-color="light"
+          <div
+            className="relative- max-w-xs- w-full overflow-hidden- bg-cover- bg-no-repeat- mt-4 "
+            data-twe-ripple-init
+            data-twe-ripple-color="light"
+          >
+            <img
+              src="/saint-brigid.png"
+              className="max-w-xs- w-full"
+              alt="Louvre"
+            />
+
+            <Link
+              href="/saint-brigid-of-ireland"
+              title="Saint Brigid of Ireland"
             >
-              <img
-                src="/saint-brigid.png"
-                className="max-w-xs- w-full"
-                alt="Louvre"
-              />
-  
-              <Link href="/saint-brigid-of-ireland" title="Saint Brigid of Ireland">
               <div className="absolute- bottom-0- left-0- right-0- top-0- h-full- w-full- overflow-hidden- bg-[hsl(0,0%,98.4%,0.2)]- bg-fixed- opacity-0- transition- duration-300- ease-in-out- hover:opacity-100-"></div>
-              </Link>
-            
-            </div>
+            </Link>
+          </div>
 
           <div>
             <div
@@ -303,10 +310,12 @@ export default function page({ children }) {
                 alt="Louvre"
               />
 
-              <Link href="/singing-of-the-holy-rosary" title="Singing of the Holy Rosary">
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              <Link
+                href="/singing-of-the-holy-rosary"
+                title="Singing of the Holy Rosary"
+              >
+                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
               </Link>
-            
             </div>
           </div>
 
@@ -327,8 +336,6 @@ export default function page({ children }) {
             </div>
           </div>
 
-          
-         
           <div className="">
             <img
               width="100"
@@ -416,8 +423,8 @@ export default function page({ children }) {
               title="A picture of a holy angel"
             ></img>
           </div>
-		  
-		   <div className="">
+
+          <div className="">
             <img
               width="100"
               height="100"
@@ -448,8 +455,53 @@ export default function page({ children }) {
               title="Mary with Jesus"
             ></img>
           </div>
-          
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/convent-of-passionate-nuns.png"
+              alt=""
+              title="Only good things go on here, yes"
+            ></img>
+          </div>
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/a-picture-of-my-dear-precious-jesus-christ.png"
+              alt=""
+              title="A picture of my dear precious Jesus Christ"
+            ></img>
+          </div>
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/pope-francis.png"
+              alt=""
+              title="A pricture of Pope Francis with some friends in the Catholic Church"
+            ></img>
+          </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/pope-francis-2.png"
+              alt=""
+              title="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
+            ></img>
+          </div>
+
         </div>
+
+      
+        
+
       </div>
     </div>
   );

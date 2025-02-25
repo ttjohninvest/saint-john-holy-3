@@ -248,6 +248,97 @@ export default function RootLayout({ children }) {
                 Catholic
               </a>
             </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://simple.wikipedia.org/wiki/Pope_Francis"
+                target="_blank"
+              >
+                Catholic, Pope Francis, wikipedia.com
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.google.com/search?q=pope+francis+birth+name&oq=Pope+Francis+birth+name&gs_lcrp=EgZjaHJvbWUqDAgAEAAYRhj7ARiABDIMCAAQABhGGPsBGIAEMggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMg0IBxAAGIYDGIAEGIoFMg0ICBAAGIYDGIAEGIoFMg0ICRAAGIYDGIAEGIoF0gEJODk3OWowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8#vhid=gvd07n-j9Vt94M&vssid=l"
+                target="_blank"
+              >
+                Catholic, Pope Francis birth name
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://beajesuit.org/"
+                target="_blank"
+              >
+                Catholic, Jesuit, School to become
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://en.wikipedia.org/wiki/List_of_current_cardinals"
+                target="_blank"
+              >
+                Catholic, Cardinals, List of Current, Wikipedia.com
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.ncronline.org/news/bishops-united-states-basics#:~:text=More%20than%20a%20third%20(168,bishops%20and%2076%20auxiliary%20bishops."
+                target="_blank"
+              >
+                Catholic, Bishops, National Catholic Register, United States
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.catholicworldreport.com/2025/02/17/diocesan-priestly-vocations-in-the-u-s-a-look-at-the-numbers/"
+                target="_blank"
+              >
+                Catholic, Diocesan Priestly Vocations, a look at the numbers, Catholic World Report
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.ncronline.org/news/demographic-forces-beyond-hierarchical-control-are-changing-us-church"
+                target="_blank"
+              >
+                Catholic, Demographic Forces, National Catholic Register
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.youtube.com/watch?v=bBDjnjP_XK0"
+                target="_blank"
+              >
+                Catholic, Gaza, The Catholic Church there
+              </a>
+            </div>
+			
+			    <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.aboutcatholics.com"
+                target="_blank"
+              >
+                Catholics, About
+              </a>
+            </div>
+
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -257,15 +348,7 @@ export default function RootLayout({ children }) {
                 Catholic Bishops, Conference of USA
               </a>
             </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.aboutcatholics.com"
-                target="_blank"
-              >
-                Catholics, About
-              </a>
-            </div>
+        
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -479,6 +562,28 @@ export default function RootLayout({ children }) {
                 Inside The Vatican
               </a>
             </div>
+            
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://beajesuit.org"
+                target="_blank"
+              >
+                Jesuits, A place to become a jesuit 
+              </a>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.youtube.com/@SocietyofJesus"
+                target="_blank"
+              >
+                Jesuits, The Society of precious Holy, Blessed Jesus Christ
+              </a>
+            </div>
+            
+
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
