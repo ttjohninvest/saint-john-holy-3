@@ -14,11 +14,11 @@ import { useMedia } from "react-use";
 const menuItems = [
   {
     menu: "Saint John's Page",
-    link: "/",
+    //link: "/",
   },
   {
     menu: "About",
-    link: "/about",
+    //link: "/about",
   },
   // {
   //   menu: "Product",
@@ -30,26 +30,21 @@ const menuItems = [
   // },
   {
     menu: "You May Contact Me",
-    link: "/contact",
-  },
-  {
-    menu: "Restore Pictures",
-    link: "/restore-pictures",
+    //link: "/contact",
   },
  
 ];
 
+
+
 export default function RootLayout({ children }) {
   const displayMenu = () => {
-    return menuItems.map((item) => (
-      <Link
-        key={item.menu}
-        href={item.link}
-        className="pb-5 hover:text-yellow md:pb-0 md:pl-6"
-      >
-        {item.menu}
-      </Link>
+    
+    return menuItems.map((item,i) => (
+      <div key={i} className="mr-4">{item.menu}</div>
+     
     ));
+    
   };
 
   const isDesktop = useMedia("(min-width: 768px)", true);
@@ -66,44 +61,6 @@ export default function RootLayout({ children }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div>
-          <div className="flex justify-between p-2 shadow-lg items-center">
-           
-            <div className="">
-              <div className="text-red">
-                {isDesktop ? (
-                  displayMenu()
-                ) : (
-                  <>
-                    <button
-                      className="border-none bg-none"
-                      onClick={() => toggleSidebar()}
-                    >
-                      <FaBars />
-                    </button>
-                    <div
-                      className={
-                        open
-                          ? "absolute top-0 right-0 z-50 h-screen w-3/5 bg-white shadow-md"
-                          : "hidden"
-                      }
-                    >
-                      <div className="flex flex-col text-center">
-                        <button
-                          className="mb-7 mt-7 mr-1 flex justify-end px-5 text-xl"
-                          onClick={() => toggleSidebar()}
-                        >
-                          <GrClose />
-                        </button>
-                        {displayMenu()}
-                      </div>
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div>
         <div className="flex flex-col justify-center flex-wrap">
@@ -448,6 +405,16 @@ export default function RootLayout({ children }) {
                 Catholic Register, National
               </a>
             </div>
+            
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.stmichaelreno.org/"
+                target="_blank"
+              >
+                Catholic, Saint Michael Catholic Church, Stead Nevada
+              </a>
+            </div>
             <div className="border-b-2">
               <Link href="/ourladyofpeaceinhonolulu">
                 Catholic Shrine Basilica of Our Lady of Peace in Honolulu Hawaii
@@ -666,12 +633,23 @@ export default function RootLayout({ children }) {
                Nuns, Carmelite, Cloistered Life, Utah 
               </a>
             </div>
+
+           
+
             <div className="border-b-2">
               <Link href="/nuns-passionate">Nuns, Passionate, Cloistered life</Link>
             </div>
             <div className="border-b-2">
               <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionate, Day in the Life</Link>
             </div>
+
+            <div className="border-b-2">
+              <Link href="/vocation-to-the-religious-life">
+                Nuns, Vocation to the Religious Life
+              </Link>
+            </div>
+
+            
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"

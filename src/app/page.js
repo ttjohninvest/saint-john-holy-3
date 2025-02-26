@@ -12,7 +12,9 @@ export default function page({ children }) {
 
            
        
-		
+		  <div className="text-center mt-8 mb-4">
+            Saint John's Blog
+          </div>
           <div className="text-center mt-8">
             Welcome Holy Spirit Adoration Sisters of Christ the King
           </div>
@@ -496,7 +498,17 @@ export default function page({ children }) {
               title="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
             ></img>
           </div>
-
+          
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/nuns-two-nuns-from-the-passionate-nuns-kentucky.png"
+              alt=""
+              title="A precious picture of two nuns from the Passionate Nuns Cloistered life"
+            ></img>
+          </div>
         </div>
 
       
