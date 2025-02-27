@@ -642,6 +642,21 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionate, Day in the Life</Link>
             </div>
+			
+			  <div className="border-b-2">
+              <Link href="/saint-dominic-monastery" >Nuns, Saint Dominic's Monastery</Link>
+            </div>
+			
+			 
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap text-blue-500"
+                href="https://www.lindenopnuns.org/"
+                target="_blank"
+              >
+                Nuns, Saint Dominic's Monastery Website  (Please submit a financial donation for incomplete projects)
+              </a>
+            </div>
 
             <div className="border-b-2">
               <Link href="/vocation-to-the-religious-life">
@@ -649,7 +664,7 @@ export default function RootLayout({ children }) {
               </Link>
             </div>
 
-            
+           
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
