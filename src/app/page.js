@@ -509,6 +509,16 @@ export default function page({ children }) {
               title="A precious picture of two nuns from the Passionate Nuns Cloistered life"
             ></img>
           </div>
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/nuns-precious-from-nashville-dominican-documentary.png"
+              alt=""
+              title="A precious picture of nuns in group picture from the Nashville Dominicans Documentary"
+            ></img>
+          </div>
         </div>
 
       
