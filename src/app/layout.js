@@ -644,7 +644,7 @@ export default function RootLayout({ children }) {
             </div>
 			
 			  <div className="border-b-2">
-              <Link href="/saint-dominic-monastery" >Nuns, Saint Dominic's Monastery</Link>
+              <Link href="/saint-dominic-monastery" >Nuns, Saint Dominic's Monastery Documentary</Link>
             </div>
 			
 			 
