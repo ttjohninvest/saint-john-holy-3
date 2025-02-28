@@ -147,7 +147,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-8"
               src="/Precious-Jesus-with-the-teachers.png"
-              alt="Precious Jesus Christ with the teachers"
+              alt="A picture of my precious Jesus Christ at 12 years old with the teachers."
               title="A picture of my precious Jesus Christ at 12 years old with the teachers."
             ></img>
           </div>
@@ -168,7 +168,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-brigid.png"
-              alt="Saint Brigid"
+              alt="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
           </div>
@@ -178,7 +178,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4 border-2 border-blue-500"
               src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png"
-              alt="a"
+              alt="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
           </div>
@@ -188,7 +188,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/blessed-mother-mary-1.png"
-              alt=""
+              alt="A picture of the blessed mother Mary."
               title="A picture of the blessed mother Mary."
             ></img>
           </div>
@@ -199,7 +199,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/adoration-2.png"
-              alt=""
+              alt="Adoration of the Eucharist."
               title="Adoration of the Eucharist."
             ></img>
           </div>
@@ -210,7 +210,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/father-aledel.png"
-              alt=""
+              alt="Father Aledel"
               title="Father Aledel"
             ></img>
           </div>
@@ -221,7 +221,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/holy-precious-jesus-with-his-precious-blessed-mother-mary.png"
-              alt=""
+              alt="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
               title="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
             ></img>
           </div>
@@ -232,7 +232,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/adoration-1.png"
-              alt=""
+              alt="Adoration of the Eucharist."
               title="Adoration of the Eucharist."
             ></img>
           </div>
@@ -243,7 +243,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/jesus-christ-2.png"
-              alt=""
+              alt="A precious picture of Jesus Christ who rose from the dead is wonderful."
               title="A precious picture of Jesus Christ who rose from the dead is wonderful."
             ></img>
           </div>
@@ -254,7 +254,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/person-in-the-clouds.jpg"
-              alt="a"
+              alt="A person in the clouds"
               title="A person in the clouds"
             ></img>
           </div>
@@ -265,7 +265,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/precious-queen-with-jesus-now.png"
-              alt=""
+              alt="Precious beloved Queen of England who is with Jesus Christ now."
               title="Precious beloved Queen of England who is with Jesus Christ now."
             ></img>
           </div>
@@ -276,7 +276,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-catherine-of-miraculous-medal-2.png"
-              alt=""
+              alt="A picture of saint Catherine of miraculous medal"
               title="A picture of saint Catherine of miraculous medal"
             ></img>
           </div>
@@ -344,7 +344,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-catherine-of-miraculous-medal.png"
-              alt=""
+              alt="A wonderful picture of saint Catherine of miraculous medal"
               title="A wonderful picture of saint Catherine of miraculous medal"
             ></img>
           </div>
@@ -355,7 +355,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-catherine-with-mother-mary-in-her-chapel.png"
-              alt=""
+              alt="Saint Catherine with blessed mother mary in her convent chapel"
               title="Saint Catherine with blessed mother mary in her convent chapel"
             ></img>
           </div>
@@ -366,7 +366,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-catherine-of-miraculous-medal-2.png"
-              alt=""
+              alt="A picture of saint Catherine of miraculous medal"
               title="A picture of saint Catherine of miraculous medal"
             ></img>
           </div>
@@ -377,7 +377,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-vincent-1.png"
-              alt=""
+              alt="A picture of saint Vincent"
               title="A picture of saint Vincent"
             ></img>
           </div>
@@ -388,7 +388,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-vincent-2.png"
-              alt=""
+              alt="A picture of saint Vincent"
               title="A picture of saint Vincent"
             ></img>
           </div>
@@ -399,7 +399,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/saint-with-vision-of-the-blessed-mary.png"
-              alt=""
+              alt="Saint Catherine with vision of the blessed mother Mary"
               title="Saint Catherine with vision of the blessed mother Mary"
             ></img>
           </div>
@@ -410,7 +410,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/vincentian-fathers-and-sisters-of-charity-1.png"
-              alt=""
+              alt="A picture of Vincentian fathers and the sisters of charity."
               title="A picture of Vincentian fathers and the sisters of charity."
             ></img>
           </div>
@@ -421,7 +421,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/vintage-baroque-angel-digital-art.jpg"
-              alt=""
+              alt="A picture of a holy angel"
               title="A picture of a holy angel"
             ></img>
           </div>
@@ -432,8 +432,8 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/nun-day-in-the-life.png"
-              alt=""
-              title="Nun, day in the life "
+              alt="Nun, day in the life"
+              title="Nun, day in the life"
             ></img>
           </div>
           <div className="">
@@ -442,7 +442,7 @@ export default function page({ children }) {
               height="100"
               className="w-full mt-4"
               src="/passionate-nuns-mother.png"
-              alt=""
+              alt="Passionate nuns mother"
               title="Passionate nuns mother"
             ></img>
           </div>
@@ -453,7 +453,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/mary-with-jesus-4.png"
-              alt=""
+              alt="Mary with Jesus"
               title="Mary with Jesus"
             ></img>
           </div>
@@ -463,7 +463,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/convent-of-passionate-nuns.png"
-              alt=""
+              alt="Only good things go on here, yes"
               title="Only good things go on here, yes"
             ></img>
           </div>
@@ -473,7 +473,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/a-picture-of-my-dear-precious-jesus-christ.png"
-              alt=""
+              alt="A picture of my dear precious Jesus Christ"
               title="A picture of my dear precious Jesus Christ"
             ></img>
           </div>
@@ -483,7 +483,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/pope-francis.png"
-              alt=""
+              alt="A pricture of Pope Francis with some friends in the Catholic Church"
               title="A pricture of Pope Francis with some friends in the Catholic Church"
             ></img>
           </div>
@@ -494,7 +494,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/pope-francis-2.png"
-              alt=""
+              alt="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
               title="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
             ></img>
           </div>
@@ -505,7 +505,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/nuns-two-nuns-from-the-passionate-nuns-kentucky.png"
-              alt=""
+              alt="A precious picture of two nuns from the Passionate Nuns Cloistered life"
               title="A precious picture of two nuns from the Passionate Nuns Cloistered life"
             ></img>
           </div>
@@ -515,8 +515,18 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/nuns-precious-from-nashville-dominican-documentary.png"
-              alt=""
+              alt="A precious picture of nuns in group picture from the Nashville Dominicans Documentary"
               title="A precious picture of nuns in group picture from the Nashville Dominicans Documentary"
+            ></img>
+          </div>
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/nuns-group-picture-of-passionate-nuns.png"
+              alt="A precious group picture of passionate nuns"
+              title="A precious group picture of passionate nuns"
             ></img>
           </div>
         </div>
