@@ -13,13 +13,13 @@ export default function page({ children }) {
            
        
 		  <div className="text-center mt-8 mb-4">
-            I welcome you to Saint John's Page. Pease be with you.
+            I welcome you to Saint John's Page. Peace be with you.
           </div>
          
           <div className="text-center mt-8">
             Welcome Holy Spirit Adoration Sisters of Christ the King
           </div>
-          
+
           <div className="text-center">
             Welcome Institute for Religious Life
           </div>
