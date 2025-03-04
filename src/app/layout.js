@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
         <div>
        
         <div className="flex flex-col justify-center flex-wrap">
-          <div className="w-full h-16 bg-blue-500 flex flex-row justify-end items-center pr-4">
+          <div className="opacity-75- sticky top-0 w-full h-16 bg-blue-500 flex flex-row justify-end items-center pr-4">
             by Saint John (circa 2025)
           </div>
         

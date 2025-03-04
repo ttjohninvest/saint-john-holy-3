@@ -13,7 +13,7 @@ export default function page({ children }) {
            
        
 		  <div className="text-center mt-8 mb-4">
-            Welcome to Saint John's Blog
+            Welcome to Saint John's Page
           </div>
          
           <div className="text-center mt-8">
