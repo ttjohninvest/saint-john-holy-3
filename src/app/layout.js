@@ -109,15 +109,15 @@ export default function RootLayout({ children }) {
           </div>
         </div>
 
-        <div className="grid-not-working-causing-wrong-links grid-cols-1- lg:grid-cols-[850px_1fr]- gap-4- p-4-">
+        <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-4- p-4-">
 
         <div className="h-[100vh]- p-1">{children}</div>
           
           <div id="section1" className="lg:block lg:h-[100vh] p-4 mt-8">
             
-            {/* <div className="border-b-2">
+            <div className="border-b-2">
               <Link href="/kjv" target="_blank">Holy Bible, KJV</Link>
-            </div> */}
+            </div>
 
             <div className="border-b-2">
               <Link href="https://www.usccb.org/resources/2024cal.pdf" target="_blank">Liturgical Calendar</Link>
@@ -647,14 +647,7 @@ export default function RootLayout({ children }) {
                 Nun, day in the life, Video Documentary
               </a>
             </div>
-            {/* <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://willowy-beijinho-1d8105.netlify.app/"
-                target="_blank"
-              >
-              Nuns and Convents, Precious List</a>
-            </div> */}
+           
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"

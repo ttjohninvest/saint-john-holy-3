@@ -294,37 +294,61 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div
+            className="relative- max-w-xs- w-full overflow-hidden- bg-cover- bg-no-repeat- mt-4 "
+            data-twe-ripple-init
+            data-twe-ripple-color="light"
+          >
             <img
-              width="100"
-              height="100"
-              className="w-full mt-4"
               src="/saint-brigid.png"
-              alt="Saint Brigid"
-              title="Saint Brigid"
-            ></img>
+              className="max-w-xs- w-full"
+              alt="Louvre"
+            />
+
+            <Link
+              href="/saint-brigid-of-ireland"
+              title="Saint Brigid of Ireland"
+            >
+              <div className="absolute- bottom-0- left-0- right-0- top-0- h-full- w-full- overflow-hidden- bg-[hsl(0,0%,98.4%,0.2)]- bg-fixed- opacity-0- transition- duration-300- ease-in-out- hover:opacity-100-"></div>
+            </Link>
           </div>
-		  
-		  <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-4"
-              src="/singing-of-the-holy-rosary-2.png"
-              alt="singing-of-the-holy-rosary-2"
-              title="singing-of-the-holy-rosary-2"
-            ></img>
+
+          <div>
+            <div
+              className="relative max-w-xs- w-full overflow-hidden bg-cover bg-no-repeat mt-4 "
+              data-twe-ripple-init
+              data-twe-ripple-color="light"
+            >
+              <img
+                src="/singing-of-the-holy-rosary-2.png"
+                className="max-w-xs- w-full"
+                alt="Louvre"
+              />
+
+              <Link
+                href="/singing-of-the-holy-rosary"
+                title="Singing of the Holy Rosary"
+              >
+                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              </Link>
+            </div>
           </div>
-		  
-		    <div className="">
-            <img
-              width="100"
-              height="100"
-              className="w-full mt-4"
-              src="/picture-of-jesus-christ-healing.png"
-              alt="picture-of-jesus-christ-healing"
-              title="picture-of-jesus-christ-healing"
-            ></img>
+
+          <div>
+            <div
+              className="relative- w-full overflow-hidden- bg-cover- bg-no-repeat- mt-4 "
+              data-twe-ripple-init
+              data-twe-ripple-color="light"
+            >
+              <img
+                src="/picture-of-jesus-christ-healing.png"
+                className="max-w-xs- w-full"
+                alt="A beautiful picture of Jesus Christ healing. Yes."
+              />
+              <a href="https://www.saintritashrine.org/events/2025-february-healing-mass">
+                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              </a>
+            </div>
           </div>
 
           <div className="">
@@ -336,7 +360,7 @@ export default function page({ children }) {
               alt="A wonderful picture of saint Catherine of miraculous medal"
               title="A wonderful picture of saint Catherine of miraculous medal"
             ></img>
-          </div> 
+          </div>
 
           <div className="">
             <img
