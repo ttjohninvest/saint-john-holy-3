@@ -143,6 +143,8 @@ export default function page({ children }) {
             The song of Saint Bernadette, movie.
           </div>
 
+         
+
           <div className="">
             <img
               width="100"
@@ -151,6 +153,16 @@ export default function page({ children }) {
               src="/Precious-Jesus-with-the-teachers.png"
               alt="A picture of my precious Jesus Christ at 12 years old with the teachers."
               title="A picture of my precious Jesus Christ at 12 years old with the teachers."
+            ></img>
+          </div>
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/woman-smiling.png"
+              alt="woman smiling"
+              title="woman smiling"
             ></img>
           </div>
           <div className="">
@@ -531,6 +543,7 @@ export default function page({ children }) {
               title="A precious group picture of passionate nuns"
             ></img>
           </div>
+
         </div>
 
       
