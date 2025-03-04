@@ -200,7 +200,9 @@ export default function RootLayout({ children }) {
                 Bible Gateway
               </a>
             </div>
-           
+            
+         
+
             <div className="border-b-2">
               <Link href="/cloisteredlife1">
                 Carmelites of the Carmel of Mary
@@ -537,6 +539,15 @@ export default function RootLayout({ children }) {
             </div>
             <div className="border-b-2">
               <Link href="/gospel-of-john-movie"> Gospel of John, Movie</Link>
+            </div>
+			<div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://www.blueletterbible.org"
+                target=""
+              >
+                Holy Bible, Blue Letter
+              </a>
             </div>
             <div className="border-b-2">
               <a href="https://www.hprweb.com/" target="">
