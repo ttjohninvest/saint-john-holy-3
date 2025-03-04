@@ -7,6 +7,7 @@ import Image from "next/image";
 export default function page({ children }) {
   return (
     <div className="border-4- border-white- p-4">
+     
       <div className="">
         <div>
 
@@ -15,6 +16,7 @@ export default function page({ children }) {
 		  <div className="text-center mt-8 mb-4">
             Welcome to Saint John's Blog
           </div>
+         
           <div className="text-center mt-8">
             Welcome Holy Spirit Adoration Sisters of Christ the King
           </div>

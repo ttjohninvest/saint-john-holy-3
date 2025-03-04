@@ -63,6 +63,7 @@ export default function RootLayout({ children }) {
         </Head>
 
         <div>
+       
         <div className="flex flex-col justify-center flex-wrap">
         
         <div className="h-96 lg:h-48">
@@ -121,13 +122,21 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <Link href="https://www.usccb.org/resources/2024cal.pdf" target="_blank">Liturgical Calendar</Link>
             </div>
-
+            <div className="border-b-2- mb-6 border-b-2- border-gray-500">
+              <a
+                className="flex flex-wrap text-blue-500"
+                href="https://willowy-beijinho-1d8105.netlify.app/"
+                target="_blank"
+              >
+              Precious Nuns and Convents Index</a>
+            </div>
             <div className="mt-4 mb-4 font-bold italic underline">
               <h1>
                 Catholic Christian Church Saints, Magazines, Websites, Reviews
                 and Movies
               </h1>
             </div>
+           
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -163,11 +172,22 @@ export default function RootLayout({ children }) {
                 Archdiocese of Philadelphia
               </a>
             </div>
+            
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
+                target="_blank"
+              >
+                Monastery. Benedictine Rule for Service
+              </a>
+            </div>
             <div className="border-b-2">
               <Link href="/saint-bernadette-movie">
                 Bernadette, Saint, Movie
               </Link>
             </div>
+            
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -584,6 +604,22 @@ export default function RootLayout({ children }) {
                 Mazzarello, Mary, Saint, Movie
               </Link>
             </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
+                target="_blank"
+              >
+                Monastery, benedictine Rule for Service
+              </a>
+            </div>
+            <div className="border-b-2">
+              <Link href="/monastery-contemplative-life-today">
+                Monastery, a look at comtemplative life today
+              </Link>
+            </div>
+
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -611,6 +647,14 @@ export default function RootLayout({ children }) {
                 Nun, day in the life, Video Documentary
               </a>
             </div>
+            {/* <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://willowy-beijinho-1d8105.netlify.app/"
+                target="_blank"
+              >
+              Nuns and Convents, Precious List</a>
+            </div> */}
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -647,10 +691,30 @@ export default function RootLayout({ children }) {
             </div>
 
             <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://nazareth.org"
+                target="_blank"
+              >
+               Nuns, Sisters of Charity of Nazareth, Website 
+              </a>
+            </div>
+
+            <div className="border-b-2">
               <Link href="/nuns-passionate">Nuns, Passionate, Cloistered life</Link>
             </div>
             <div className="border-b-2">
               <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionate, Day in the Life</Link>
+            </div>
+
+            <div className="border-b-2">
+              <a
+                className="flex flex-wrap"
+                href="https://passionistsnuns.org"
+                target="_blank"
+              >
+               Nuns, Passionists in Whitesville Kentucky, website 
+              </a>
             </div>
 			
 			  <div className="border-b-2">
