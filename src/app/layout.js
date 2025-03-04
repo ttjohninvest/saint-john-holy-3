@@ -65,6 +65,9 @@ export default function RootLayout({ children }) {
         <div>
        
         <div className="flex flex-col justify-center flex-wrap">
+          <div className="w-full h-16 bg-blue-500 flex flex-row justify-end items-center pr-4">
+            by Saint John (circa 2025)
+          </div>
         
         <div className="h-96 lg:h-48">
      
@@ -116,17 +119,17 @@ export default function RootLayout({ children }) {
           <div id="section1" className="lg:block lg:h-[100vh] p-4 mt-8">
             
             <div className="border-b-2">
-              <Link href="/kjv" target="_blank">Holy Bible, KJV</Link>
+              <Link href="/kjv" target="">Holy Bible, KJV</Link>
             </div>
 
             <div className="border-b-2">
-              <Link href="https://www.usccb.org/resources/2024cal.pdf" target="_blank">Liturgical Calendar</Link>
+              <Link href="https://www.usccb.org/resources/2024cal.pdf" target="">Liturgical Calendar</Link>
             </div>
             <div className="border-b-2- mb-6 border-b-2- border-gray-500">
               <a
                 className="flex flex-wrap text-blue-500"
                 href="https://willowy-beijinho-1d8105.netlify.app/"
-                target="_blank"
+                target=""
               >
               Precious Nuns and Convents Index</a>
             </div>
@@ -141,7 +144,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://adoremus.org/"
-                target="_blank"
+                target=""
               >
                 Adoremus
               </a>
@@ -150,7 +153,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.americamagazine.org/"
-                target="_blank"
+                target=""
               >America Magazine, The Jesuit Review</a>
             </div>
            
@@ -158,7 +161,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription"
-                target="_blank"
+                target=""
               >
                 Angelus Press
               </a>
@@ -167,7 +170,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.archphila.org"
-                target="_blank"
+                target=""
               >
                 Archdiocese of Philadelphia
               </a>
@@ -177,7 +180,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
-                target="_blank"
+                target=""
               >
                 Monastery. Benedictine Rule for Service
               </a>
@@ -192,7 +195,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.biblegateway.com"
-                target="_blank"
+                target=""
               >
                 Bible Gateway
               </a>
@@ -208,7 +211,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.gettyimages.com/search/2/image?page=5&phrase=largest%20cathedrals%20in%20the%20world&sort=mostpopular&license=rf%2Crm"
-                target="_blank"
+                target=""
               >
                 Cathedrals, Beautiful
               </a>
@@ -220,7 +223,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholic.org"
-                target="_blank"
+                target=""
               >
                 Catholic
               </a>
@@ -230,7 +233,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://simple.wikipedia.org/wiki/Pope_Francis"
-                target="_blank"
+                target=""
               >
                 Catholic, Pope Francis, wikipedia.com
               </a>
@@ -240,7 +243,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.google.com/search?q=pope+francis+birth+name&oq=Pope+Francis+birth+name&gs_lcrp=EgZjaHJvbWUqDAgAEAAYRhj7ARiABDIMCAAQABhGGPsBGIAEMggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMg0IBxAAGIYDGIAEGIoFMg0ICBAAGIYDGIAEGIoFMg0ICRAAGIYDGIAEGIoF0gEJODk3OWowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8#vhid=gvd07n-j9Vt94M&vssid=l"
-                target="_blank"
+                target=""
               >
                 Catholic, Pope Francis birth name
               </a>
@@ -250,7 +253,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://beajesuit.org/"
-                target="_blank"
+                target=""
               >
                 Catholic, Jesuit, School to become
               </a>
@@ -260,7 +263,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://en.wikipedia.org/wiki/List_of_current_cardinals"
-                target="_blank"
+                target=""
               >
                 Catholic, Cardinals, List of Current, Wikipedia.com
               </a>
@@ -270,7 +273,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.ncronline.org/news/bishops-united-states-basics#:~:text=More%20than%20a%20third%20(168,bishops%20and%2076%20auxiliary%20bishops."
-                target="_blank"
+                target=""
               >
                 Catholic, Bishops, National Catholic Register, United States
               </a>
@@ -280,7 +283,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholicworldreport.com/2025/02/17/diocesan-priestly-vocations-in-the-u-s-a-look-at-the-numbers/"
-                target="_blank"
+                target=""
               >
                 Catholic, Diocesan Priestly Vocations, a look at the numbers, Catholic World Report
               </a>
@@ -290,7 +293,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.ncronline.org/news/demographic-forces-beyond-hierarchical-control-are-changing-us-church"
-                target="_blank"
+                target=""
               >
                 Catholic, Demographic Forces, National Catholic Register
               </a>
@@ -300,7 +303,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.youtube.com/watch?v=bBDjnjP_XK0"
-                target="_blank"
+                target=""
               >
                 Catholic, Gaza, The Catholic Church there
               </a>
@@ -310,7 +313,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.aboutcatholics.com"
-                target="_blank"
+                target=""
               >
                 Catholics, About
               </a>
@@ -320,7 +323,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.usccb.org"
-                target="_blank"
+                target=""
               >
                 Catholic Bishops, Conference of USA
               </a>
@@ -330,7 +333,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholiccity.com"
-                target="_blank"
+                target=""
               >
                 Catholic City
               </a>
@@ -339,7 +342,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholic.org/encyclopedia"
-                target="_blank"
+                target=""
               >
                 Catholic Encyclopedia
               </a>
@@ -348,7 +351,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.ewtn.com"
-                target="_blank"
+                target=""
               >
                 Catholic EWTN
               </a>
@@ -357,7 +360,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://subscribe-renew.com/us-catholic-magazine"
-                target="_blank"
+                target=""
               >
                 Catholic Magazine USA
               </a>
@@ -366,7 +369,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholic-mass-time.com"
-                target="_blank"
+                target=""
               >
                 Catholic Mass Time
               </a>
@@ -375,7 +378,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.lighthousecatholicmedia.org"
-                target="_blank"
+                target=""
               >
                 Catholic Media, Light House
               </a>
@@ -384,7 +387,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.mycatholic.com"
-                target="_blank"
+                target=""
               >
                 Catholic, My
               </a>
@@ -393,7 +396,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholicnews.com"
-                target="_blank"
+                target=""
               >
                 Catholic News
               </a>
@@ -402,7 +405,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.srol.org/assets/Adult-Faith-Formation/Prominent-Catholic-Periodicals.pdf"
-                target="_blank"
+                target=""
               >
                 Catholic Periodicals, Prominent
               </a>
@@ -411,7 +414,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.liguori.org"
-                target="_blank"
+                target=""
               >
                 Catholic Publication
               </a>
@@ -420,7 +423,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.ncregister.com/topic/pope-francis"
-                target="_blank"
+                target=""
               >
                 Catholic Register, National
               </a>
@@ -430,7 +433,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.stmichaelreno.org/"
-                target="_blank"
+                target=""
               >
                 Catholic, Saint Michael Catholic Church, Stead Nevada
               </a>
@@ -444,7 +447,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-"
-                target="_blank"
+                target=""
               >
                 Catholic Telegraph
               </a>
@@ -453,7 +456,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.liguori.org/catholic-update"
-                target="_blank"
+                target=""
               >
                 Catholic Update
               </a>
@@ -462,7 +465,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.USCatholic.org"
-                target="_blank"
+                target=""
               >
                 Catholic, USA
               </a>
@@ -471,7 +474,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.catholicworldreport.com"
-                target="_blank"
+                target=""
               >
                 Catholic World Report
               </a>
@@ -480,7 +483,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.christlife.org"
-                target="_blank"
+                target=""
               >
                 Christ Life
               </a>
@@ -496,7 +499,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.chnetwork.org"
-                target="_blank"
+                target=""
               >
                 Coming Home Network
               </a>
@@ -505,7 +508,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.usccb.org"
-                target="_blank"
+                target=""
               >
                 Conference of Catholic Bishops USA
               </a>
@@ -517,7 +520,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.crisismagazine.com"
-                target="_blank"
+                target=""
               >
                 Crisis Magazine
               </a>
@@ -527,7 +530,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.franciscanmedia.org/franciscan-spirit-blog/top-catholic-magazines/"
-                target="_blank"
+                target=""
               >
                 Franciscan Media
               </a>
@@ -536,7 +539,7 @@ export default function RootLayout({ children }) {
               <Link href="/gospel-of-john-movie"> Gospel of John, Movie</Link>
             </div>
             <div className="border-b-2">
-              <a href="https://www.hprweb.com/" target="_blank">
+              <a href="https://www.hprweb.com/" target="">
                 Homiletic Pastoral Review
               </a>
             </div>
@@ -544,7 +547,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://insidethevatican.com/"
-                target="_blank"
+                target=""
               >
                 Inside The Vatican
               </a>
@@ -554,7 +557,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://beajesuit.org"
-                target="_blank"
+                target=""
               >
                 Jesuits, A place to become a jesuit 
               </a>
@@ -564,7 +567,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.youtube.com/@SocietyofJesus"
-                target="_blank"
+                target=""
               >
                 Jesuits, The Society of precious Holy, Blessed Jesus Christ
               </a>
@@ -575,7 +578,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://keepthefaith.org/latin-mass/"
-                target="_blank"
+                target=""
               >
                 Keep the Faith Latin Mass
               </a>
@@ -585,7 +588,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.loamagazine.org"
-                target="_blank"
+                target=""
               >
                 Loa Magazine
               </a>
@@ -594,7 +597,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.magnificat.net"
-                target="_blank"
+                target=""
               >
                 Magnificat
               </a>
@@ -609,7 +612,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
-                target="_blank"
+                target=""
               >
                 Monastery, benedictine Rule for Service
               </a>
@@ -624,7 +627,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.newadvent.org"
-                target="_blank"
+                target=""
               >
                 New Advent
               </a>
@@ -633,7 +636,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.newoxfordreview.org"
-                target="_blank"
+                target=""
               >
                 New Oxford Review
               </a>
@@ -642,7 +645,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.youtube.com/watch?v=fRtBKz-48NI"
-                target="_blank"
+                target=""
               >
                 Nun, day in the life, Video Documentary
               </a>
@@ -652,7 +655,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://cloisteredlife.com/directory/salt-lake-city"
-                target="_blank"
+                target=""
               >
                 Nuns, Carmelite, Utah
               </a>
@@ -665,7 +668,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href=""
-                target="_blank"
+                target=""
               >
                Nuns, Carmelite, Cloistered Life, Utah 
               </a>
@@ -677,7 +680,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://nashvilledominican.org"
-                target="_blank"
+                target=""
               >
                Nuns, Dominican Sisters of Saint Cecilia Website 
               </a>
@@ -687,7 +690,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://nazareth.org"
-                target="_blank"
+                target=""
               >
                Nuns, Sisters of Charity of Nazareth, Website 
               </a>
@@ -704,7 +707,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://passionistsnuns.org"
-                target="_blank"
+                target=""
               >
                Nuns, Passionists in Whitesville Kentucky, website 
               </a>
@@ -719,7 +722,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap text-blue-500"
                 href="https://www.lindenopnuns.org/"
-                target="_blank"
+                target=""
               >
                 Nuns, Saint Dominic's Monastery Website  (Please submit a financial donation for incomplete projects)
               </a>
@@ -736,7 +739,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.osv.com/"
-                target="_blank"
+                target=""
               >
                 Our Sunday Visitor
               </a>
@@ -746,7 +749,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://fineartamerica.com/shop/canvas+prints/padre+pio?utm_source=bing&utm_medium=cpc&utm_campaign=DSA%20-%20Shop%20Pages&utm_content=Shop%20Pages&msclkid=6979599a49881ff3f6873e2ec5d1a0e7&utm_term=%2Fshop%2F"
-                target="_blank"
+                target=""
               >
                 Pio, Padre
               </a>
@@ -756,7 +759,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://passionist.org/wp-content/uploads/2020/12/Diary_StudyGuide_cp.pdf"
-                target="_blank"
+                target=""
               >
                 Prayer Guide, Saint Paul of the Cross, 1720
               </a>
@@ -777,7 +780,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.stmarysmessenger.com"
-                target="_blank"
+                target=""
               >
                 Saint Marys Messenger
               </a>
@@ -791,7 +794,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.spiritdaily.com"
-                target="_blank"
+                target=""
               >
                 Spirit Daily
               </a>
@@ -800,7 +803,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://upfaithandfamily.com/"
-                target="_blank"
+                target=""
               >
                 Up Faith And Family
               </a>
@@ -809,7 +812,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.vaticannews.va/en.html"
-                target="_blank"
+                target=""
               >
                 Vatican News
               </a>
@@ -818,7 +821,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://thewandererpress.com/"
-                target="_blank"
+                target=""
               >
                 Wanderer Press
               </a>
@@ -827,7 +830,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.wau.org"
-                target="_blank"
+                target=""
               >
                 Word Amoung Us
               </a>
@@ -836,7 +839,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap"
                 href="https://www.wordonfire.org"
-                target="_blank"
+                target=""
               >
                 Word On Fire
               </a>
