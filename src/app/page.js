@@ -165,6 +165,16 @@ export default function page({ children }) {
           <div className="">
             <img
               width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/oksana-baiul.png"
+              alt="oksana-baiul"
+              title="oksana-baiul"
+            ></img>
+          </div>
+          <div className="">
+            <img
+              width="100"
               height="100"
               className="w-full mt-4"
               src="/saint-peters-basilica-1.png"
