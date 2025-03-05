@@ -7,7 +7,7 @@ export default function page() {
       <iframe
         width="560"
         height="315"
-        className="w-full h-[100vh] rounded-md"
+        className="w-full h-[90vh] rounded-md"
         src="https://www.youtube.com/embed/3dATAVZGewE?si=kA3X5tAAQm4LnqBk"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
