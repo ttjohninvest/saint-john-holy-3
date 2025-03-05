@@ -514,7 +514,7 @@ export default function page({ children }) {
               className="w-full mt-4"
               src="/woman-smiling.png"
               alt="Dixie Dunbar"
-              title="woman smiling"
+              title="Dixie Dunbar"
             ></img>
           </div>
           <div className="">
@@ -524,7 +524,7 @@ export default function page({ children }) {
               className="w-full mt-4"
               src="/oksana-baiul.png"
               alt="oksana-baiul"
-              title="oksana-baiul"
+              title="Oksana Baiul"
             ></img>
           </div>
         </div>
