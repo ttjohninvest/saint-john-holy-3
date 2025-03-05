@@ -513,7 +513,7 @@ export default function page({ children }) {
               height="150"
               className="w-full mt-4"
               src="/woman-smiling.png"
-              alt="woman smiling"
+              alt="Dixie Dunbar"
               title="woman smiling"
             ></img>
           </div>
