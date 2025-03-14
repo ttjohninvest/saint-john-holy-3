@@ -414,6 +414,18 @@ export default function page({ children }) {
               title="Nun, day in the life"
             ></img>
           </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/gregorian-chants.png"
+              alt="Gregorian Chants"
+              title="Gregorian Chants"
+            ></img>
+          </div>
+
           <div className="">
             <img
               width="100"

@@ -481,6 +481,13 @@ export default function RootLayout({ children }) {
                 Catholic World Report
               </a>
             </div>
+
+            <div className="border-b-2">
+              <Link href="/chants-gregorian">
+                Chants, Gregorian
+              </Link>
+            </div>
+
             <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -708,10 +715,10 @@ export default function RootLayout({ children }) {
             </div>
 
             <div className="border-b-2">
-              <Link href="/nuns-passionate">Nuns, Passionate, Cloistered life</Link>
+              <Link href="/nuns-passionate">Nuns, Passionists, Cloistered life</Link>
             </div>
             <div className="border-b-2">
-              <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionate, Day in the Life</Link>
+              <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionists, Day in the Life</Link>
             </div>
 
             <div className="border-b-2">
