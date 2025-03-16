@@ -44,7 +44,7 @@ export default function page({ children }) {
             night from a lady in church I prayed all night except for a few
             moments when I almost fell asleep near the morning I said "I love
             the Lord thy God with all of my heart, mind, soul and strength" over
-            and over again I was sitting on the edge of the bed with my head
+            and over again. I was sitting on the edge of the bed with my head
             down, when the morning light appeared, I began to lift my head and I
             heard a voice say "keep your head down" I kept my head down and I
             heard a voice say "graduation" and "diploma." During this time I had
