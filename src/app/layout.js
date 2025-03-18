@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
               <a
                 className="flex flex-wrap text-blue-500"
                 href="https://missionariesofcharity.org/"
-                target="Missionaries of charity order website"
+                target="Mother Teresa's missionaries of charity order website"
               >
               "Missionaries of charity order website</a>
             </div>
