@@ -150,7 +150,6 @@ export default function page({ children }) {
               title="staff on mercy ships helping, their website is at mercyships.org"
             ></img>
           </div>
-         
 
           <div className="">
             <img
