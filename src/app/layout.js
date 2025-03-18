@@ -121,6 +121,15 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <Link href="/kjv" target="">Holy Bible, KJV</Link>
             </div>
+            
+            <div className="">
+              <a
+                className="flex flex-wrap text-blue-500"
+                href="https://www.mercyships.org/"
+                target="The mercy ships website"
+              >
+              The mercy ships website</a>
+            </div>
 
             <div className="border-b-2">
               <Link href="https://www.usccb.org/resources/2024cal.pdf" target="">Liturgical Calendar</Link>
