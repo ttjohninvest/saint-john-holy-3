@@ -641,6 +641,18 @@ export default function RootLayout({ children }) {
             </div>
 
             <div className="border-b-2">
+              <Link href="/music-olivera-my-heavenly-father-loves-me">
+                Music, Reese Olivera, I know my Heavenly Father loves me
+              </Link>
+            </div>
+
+            <div className="border-b-2">
+              <Link href="/music-jesus-christ-is-holy-forever">
+                Music, Jesus Christ is Holy Forever
+              </Link>
+            </div>
+
+            <div className="border-b-2">
               <a
                 className="flex flex-wrap"
                 href="https://www.newadvent.org"
