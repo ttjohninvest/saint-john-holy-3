@@ -101,7 +101,7 @@ export default function page({ children }) {
             KJV Holy Bible. When I was walking, I opened the Holy Bible and
             started to read and as I was reading a felt a suffering come over my
             whole body. When I stopped reading, the suffering would stop. When i
-            got to the church, I saw Father Melendez and I told Him what I was
+            got to the church, I saw Father Melendez and I told Him what was
             happening. He sat me down and put his hand on my head and prayed for
             me. I heard him say "Holy Spirit" When he was done praying for me I
             asked him have you ever heard of this happening to somebody before?
