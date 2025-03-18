@@ -125,7 +125,7 @@ export default function RootLayout({ children }) {
             <div className="border-b-2">
               <Link href="https://www.usccb.org/resources/2024cal.pdf" target="">Liturgical Calendar</Link>
             </div>
-            <div className="mb-2-">
+            <div className="">
               <a
                 className="flex flex-wrap text-blue-500"
                 href="https://willowy-beijinho-1d8105.netlify.app/"
