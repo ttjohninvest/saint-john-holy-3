@@ -133,6 +133,14 @@ export default function RootLayout({ children }) {
               >
               Precious Nuns and Convents Index</a>
             </div>
+            <div className="border-b-2- mb-6 border-b-2- border-gray-500">
+              <a
+                className="flex flex-wrap text-blue-500"
+                href="https://saint-john-holy-3-cs.netlify.app/"
+                target=""
+              >
+              2025 Catholic Church Services Index</a>
+            </div>
             <div className="mt-4 mb-4 font-bold italic underline">
               <h1>
                 Catholic Christian Church Saints, Magazines, Websites, Reviews
