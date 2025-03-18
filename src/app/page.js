@@ -140,6 +140,16 @@ export default function page({ children }) {
             The song of Saint Bernadette, movie.
           </div>
 
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/mercy-ships-helping.png"
+              alt="staff on mercy ships helping"
+              title="staff on mercy ships helping, their website is at mercyships.org"
+            ></img>
+          </div>
          
 
           <div className="">
