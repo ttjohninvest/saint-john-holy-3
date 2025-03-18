@@ -146,7 +146,7 @@ export default function RootLayout({ children }) {
                 href="https://missionariesofcharity.org/"
                 target="Mother Teresa's missionaries of charity order website"
               >
-              "Mother Teresa's missionaries of charity order website</a>
+              "Mother Teresa's missionaries of charity order website. Please request information to make a donation at motherhouse@missionariesofcharity.org</a>
             </div>
 
             <div className="border-b-2">
