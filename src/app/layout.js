@@ -139,6 +139,15 @@ export default function RootLayout({ children }) {
               >
               The Saint Jude website</a>
             </div>
+            
+            <div className="">
+              <a
+                className="flex flex-wrap text-blue-500"
+                href="https://missionariesofcharity.org/"
+                target="Mother Teresa's missionaries of charity order website"
+              >
+              "Mother Teresa's missionaries of charity order website</a>
+            </div>
 
             <div className="border-b-2">
               <Link href="https://www.usccb.org/resources/2024cal.pdf" target="">Liturgical Calendar</Link>
