@@ -177,7 +177,7 @@ export default function RootLayout({ children }) {
               >
               2025 Catholic Church Services Index</a>
             </div>
-            <div className="border-b-2- mb-6 border-b-2- border-gray-500">
+            <div className="border-b-2- border-b-2- border-gray-500">
               <a
                 className="flex flex-wrap text-blue-500"
                 href="https://colleges-index.netlify.app/"
