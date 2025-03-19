@@ -169,7 +169,7 @@ export default function RootLayout({ children }) {
               >
               Precious Nuns and Convents Index</a>
             </div>
-            <div className="border-b-2- mb-6 border-b-2- border-gray-500">
+            <div className="border-b-2- mb-6- border-b-2- border-gray-500">
               <a
                 className="flex flex-wrap text-blue-500"
                 href="https://saint-john-holy-3-cs.netlify.app/"
