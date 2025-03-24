@@ -140,6 +140,17 @@ export default function page({ children }) {
             The song of Saint Bernadette, movie.
           </div>
 
+          
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/catherine-mcauley-sisters-of-mercy.png"
+              alt="Catherine McCauley Sisters of Mercy"
+              title="Catherine McCauley Sisters of Mercy"
+            ></img>
+          </div>
           <div className="">
             <img
               width="100"
@@ -150,7 +161,26 @@ export default function page({ children }) {
               title="staff on mercy ships helping, their website is at mercyships.org"
             ></img>
           </div>
-
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/beautiful-life-of-a-cloistered-nun.png"
+              alt="beautiful life of a cloistered nun"
+              title="beautiful life of a cloistered nun"
+            ></img>
+          </div>
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/mother-catherine-mcauley.png"
+              alt="Mother Catherine McAuley"
+              title="Mother Catherine McAuley"
+            ></img>
+          </div>
           <div className="">
             <img
               width="100"

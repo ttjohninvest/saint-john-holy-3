@@ -730,6 +730,7 @@ export default function RootLayout({ children }) {
                 New Oxford Review
               </a>
             </div>
+
 			      <div className="border-b-2">
               <a
                 className="flex flex-wrap"
@@ -739,7 +740,9 @@ export default function RootLayout({ children }) {
                 Nun, day in the life, Video Documentary
               </a>
             </div>
-
+            <div className="border-b-2">
+              <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">Nuns, a glimpse into the beauty of a cloistered nun</Link>
+            </div>
             <div className="border-b-2">
               <Link href="/nuns-a-life-all-for-God" >Nuns, A life all for God Documentary</Link>
             </div>
