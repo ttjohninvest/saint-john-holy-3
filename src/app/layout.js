@@ -180,7 +180,7 @@ export default function RootLayout({ children }) {
             <div className="border-b-2- border-b-2- border-gray-500">
               <a
                 className="flex flex-wrap text-blue-500"
-                href="https://colleges-index.netlify.app/"
+                href="https://colleges-index-site.netlify.app/"
                 target="Colleges Index"
               >
               Colleges Index</a>
