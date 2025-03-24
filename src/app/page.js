@@ -139,7 +139,16 @@ export default function page({ children }) {
             recently and I love them both, The Gospel of John, English Version
             The song of Saint Bernadette, movie.
           </div>
-
+          <div className="">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
+              src="/pope-is-released-from-hospital.png"
+              alt="Pope is released from hospital, yes"
+              title="Pope is released from hospital, yes, thank you Jesus Christ."
+            ></img>
+          </div>
           
           <div className="">
             <img
