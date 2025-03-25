@@ -4,7 +4,7 @@ import "./globals.css";
 
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image"
+import Image from "next/image";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { GrClose } from "react-icons/gr";
@@ -32,19 +32,15 @@ const menuItems = [
     menu: "You May Contact Me",
     //link: "/contact",
   },
- 
 ];
-
-
 
 export default function RootLayout({ children }) {
   const displayMenu = () => {
-    
-    return menuItems.map((item,i) => (
-      <div key={i} className="mr-4">{item.menu}</div>
-     
+    return menuItems.map((item, i) => (
+      <div key={i} className="mr-4">
+        {item.menu}
+      </div>
     ));
-    
   };
 
   const isDesktop = useMedia("(min-width: 768px)", true);
@@ -63,890 +59,907 @@ export default function RootLayout({ children }) {
         </Head>
 
         <div>
-       
-        <div className="flex flex-col justify-center flex-wrap">
-          <div className="opacity-75- sticky top-0 w-full h-16 bg-blue-500 flex flex-row justify-end items-center pr-4">
-            by Saint John (circa 2025)
-          </div>
-        
-        <div className="h-96 lg:h-48">
-     
-          <div className="flex flex-row flex-wrap justify-between">
-            <div>
-              <Image
-                width="50"
-                height="50"
-                className="m-4 w-48 h-48 rounded-full"
-                src="/mary-with-jesus-2.png"
-                alt="jesus"
-              ></Image>
+          <div className="flex flex-col justify-center flex-wrap">
+            <div className="opacity-75- sticky top-0 w-full h-16 bg-blue-500 flex flex-row justify-end items-center pr-4">
+              by Saint John (circa 2025)
             </div>
+            <div className="h-96 lg:h-48">
+              <div className="flex flex-row flex-wrap justify-between">
+                <div>
+                  <Image
+                    width="50"
+                    height="50"
+                    className="m-4 w-48 h-48 rounded-full"
+                    src="/mary-with-jesus-2.png"
+                    alt="jesus"
+                  ></Image>
+                </div>
 
-            <div>
-              <Image
-                width="50"
-                height="50"
-                className="m-4 w-48 h-48 rounded-full"
-                src="/jesus-christ-3.webp"
-                alt="jesus"
-              ></Image>
+                <div>
+                  <Image
+                    width="50"
+                    height="50"
+                    className="m-4 w-48 h-48 rounded-full"
+                    src="/jesus-christ-3.webp"
+                    alt="jesus"
+                  ></Image>
+                </div>
+                <div>
+                  <Image
+                    width="50"
+                    height="50"
+                    className="m-4 w-48 h-48- rounded-full"
+                    src="/jesus-christ-1.webp"
+                    alt="cross"
+                  ></Image>
+                </div>
+                <div>
+                  <Image
+                    width="50"
+                    height="50"
+                    className="m-4 w-48 h-48 rounded-full"
+                    src="/angel2sm.png"
+                    alt="angel"
+                  ></Image>
+                </div>
+              </div>
             </div>
-            <div>
-              <Image
-                width="50"
-                height="50"
-                className="m-4 w-48 h-48- rounded-full"
-                src="/jesus-christ-1.webp"
-                alt="cross"
-              ></Image>
-            </div>
-            <div>
-              <Image
-                width="50"
-                height="50"
-                className="m-4 w-48 h-48 rounded-full"
-                src="/angel2sm.png"
-                alt="angel"
-              ></Image>
-            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-4- p-4-">
+              <div className="h-[100vh]- p-1">{children}</div>
+
+              <div id="section1" className="lg:block lg:h-[100vh] p-4 mt-8">
+                <div className="border-b-2">
+                  <Link href="/kjv" target="">
+                    Holy Bible, KJV
+                  </Link>
+                </div>
+
+                <div className="">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://www.mercyships.org/"
+                    target="The mercy ships website"
+                  >
+                    The mercy ships website
+                  </a>
+                </div>
+
+                <div className="">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://www.stjude.org/"
+                    target="The Saint Jude website"
+                  >
+                    The Saint Jude website
+                  </a>
+                </div>
+
+                <div className="">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://missionariesofcharity.org/"
+                    target="Mother Teresa of Calcutta missionaries of charity order website"
+                  >
+                    Mother Teresa of Calcutta missionaries of charity order
+                    website
+                  </a>
+                </div>
+
+                <div className="">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://www.catholiccharitiesusa.org/"
+                    target="Catholic Charities, USA website"
+                  >
+                    Catholic Charities, USA website
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link
+                    href="https://www.usccb.org/resources/2024cal.pdf"
+                    target=""
+                  >
+                    Liturgical Calendar
+                  </Link>
+                </div>
+                <div className="">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://willowy-beijinho-1d8105.netlify.app/"
+                    target=""
+                  >
+                    Precious Nuns and Convents Index
+                  </a>
+                </div>
+                <div className="border-b-2- mb-6- border-b-2- border-gray-500">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://saint-john-holy-3-cs.netlify.app/"
+                    target="2025 Catholic Church Services Index"
+                  >
+                    2025 Catholic Church Services Index
+                  </a>
+                </div>
+                <div className="border-b-2- border-b-2- border-gray-500">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://colleges-index-site.netlify.app/"
+                    target="Colleges Index"
+                  >
+                    Colleges Index
+                  </a>
+                </div>
+                <div className="border-b-2- mb-6 border-b-2- border-gray-500">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://tools-list-airports-4.netlify.app/"
+                    target="tools-list-airports-2"
+                  >
+                    Compassion on the road
+                  </a>
+                </div>
+                <div className="mt-4 mb-4 font-bold italic underline">
+                  <h1>
+                    Catholic Christian Church Saints, Magazines, Websites,
+                    Reviews and Movies
+                  </h1>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://adoremus.org/"
+                    target=""
+                  >
+                    Adoremus
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.americamagazine.org/"
+                    target=""
+                  >
+                    America Magazine, The Jesuit Review
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription"
+                    target=""
+                  >
+                    Angelus Press
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.archphila.org"
+                    target=""
+                  >
+                    Archdiocese of Philadelphia
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
+                    target=""
+                  >
+                    Monastery. Benedictine Rule for Service
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/saint-bernadette-movie">
+                    Bernadette, Saint, Movie
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.biblegateway.com"
+                    target=""
+                  >
+                    Bible Gateway
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/cloisteredlife1">
+                    Carmelites of the Carmel of Mary
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.gettyimages.com/search/2/image?page=5&phrase=largest%20cathedrals%20in%20the%20world&sort=mostpopular&license=rf%2Crm"
+                    target=""
+                  >
+                    Cathedrals, Beautiful
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/cathedrals-largest">Cathedrals, Largest</Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholic.org"
+                    target=""
+                  >
+                    Catholic
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.aboutcatholics.com"
+                    target=""
+                  >
+                    Catholics, About
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.usccb.org"
+                    target=""
+                  >
+                    Catholic Bishops, Conference of USA
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://en.wikipedia.org/wiki/List_of_current_cardinals"
+                    target=""
+                  >
+                    Catholic, Cardinals, List of Current, Wikipedia.com
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholiccity.com"
+                    target=""
+                  >
+                    Catholic City
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.ncronline.org/news/demographic-forces-beyond-hierarchical-control-are-changing-us-church"
+                    target=""
+                  >
+                    Catholic, Demographic Forces, National Catholic Register
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholic.org/encyclopedia"
+                    target=""
+                  >
+                    Catholic Encyclopedia
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholicworldreport.com/2025/02/17/diocesan-priestly-vocations-in-the-u-s-a-look-at-the-numbers/"
+                    target=""
+                  >
+                    Catholic, Diocesan Priestly Vocations, a look at the
+                    numbers, Catholic World Report
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.ewtn.com"
+                    target=""
+                  >
+                    Catholic EWTN
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.youtube.com/watch?v=bBDjnjP_XK0"
+                    target=""
+                  >
+                    Catholic, Gaza, The Catholic Church there
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://beajesuit.org/"
+                    target=""
+                  >
+                    Catholic, Jesuit, School to become
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://subscribe-renew.com/us-catholic-magazine"
+                    target=""
+                  >
+                    Catholic Magazine USA
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/mass-march-15th-2025-father-pio-mentioned">
+                    Catholic, Mass March 15th 2025 father Pio mentioned
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholic-mass-time.com"
+                    target=""
+                  >
+                    Catholic Mass Time
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.lighthousecatholicmedia.org"
+                    target=""
+                  >
+                    Catholic Media, Light House
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.mycatholic.com"
+                    target=""
+                  >
+                    Catholic, My
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholicnews.com"
+                    target=""
+                  >
+                    Catholic News
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.srol.org/assets/Adult-Faith-Formation/Prominent-Catholic-Periodicals.pdf"
+                    target=""
+                  >
+                    Catholic Periodicals, Prominent
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.google.com/search?q=pope+francis+birth+name&oq=Pope+Francis+birth+name&gs_lcrp=EgZjaHJvbWUqDAgAEAAYRhj7ARiABDIMCAAQABhGGPsBGIAEMggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMg0IBxAAGIYDGIAEGIoFMg0ICBAAGIYDGIAEGIoFMg0ICRAAGIYDGIAEGIoF0gEJODk3OWowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8#vhid=gvd07n-j9Vt94M&vssid=l"
+                    target=""
+                  >
+                    Catholic, Pope Francis, birth name
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://simple.wikipedia.org/wiki/Pope_Francis"
+                    target=""
+                  >
+                    Catholic, Pope Francis, wikipedia.com
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.liguori.org"
+                    target=""
+                  >
+                    Catholic Publication
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.ncregister.com/topic/pope-francis"
+                    target=""
+                  >
+                    Catholic Register, National
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.stmichaelreno.org/"
+                    target=""
+                  >
+                    Catholic, Saint Michael Catholic Church, Stead Nevada
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/ourladyofpeaceinhonolulu">
+                    Catholic Shrine Basilica of Our Lady of Peace in Honolulu
+                    Hawaii
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-"
+                    target=""
+                  >
+                    Catholic Telegraph
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.liguori.org/catholic-update"
+                    target=""
+                  >
+                    Catholic Update
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.USCatholic.org"
+                    target=""
+                  >
+                    Catholic, USA
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.catholicworldreport.com"
+                    target=""
+                  >
+                    Catholic World Report
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/chants-gregorian">Chants, Gregorian</Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.christlife.org"
+                    target=""
+                  >
+                    Christ Life
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/christmas-angels">Christmas Angels</Link>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/cloisteredlife-directory">Cloistered Life</Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.chnetwork.org"
+                    target=""
+                  >
+                    Coming Home Network
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.usccb.org"
+                    target=""
+                  >
+                    Conference of Catholic Bishops USA
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/saint-marianne-cope">Cope, Marianne, Saint</Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.crisismagazine.com"
+                    target=""
+                  >
+                    Crisis Magazine
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.franciscanmedia.org/franciscan-spirit-blog/top-catholic-magazines/"
+                    target=""
+                  >
+                    Franciscan Media
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/gospel-of-john-movie">
+                    {" "}
+                    Gospel of John, Movie
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.blueletterbible.org"
+                    target=""
+                  >
+                    Holy Bible, Blue Letter
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a href="https://www.hprweb.com/" target="">
+                    Homiletic Pastoral Review
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://insidethevatican.com/"
+                    target=""
+                  >
+                    Inside The Vatican
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://beajesuit.org"
+                    target=""
+                  >
+                    Jesuits, A place to become a jesuit
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.youtube.com/@SocietyofJesus"
+                    target=""
+                  >
+                    Jesuits, The Society of precious Holy, Blessed Jesus Christ
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://keepthefaith.org/latin-mass/"
+                    target=""
+                  >
+                    Keep the Faith Latin Mass
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.loamagazine.org"
+                    target=""
+                  >
+                    Loa Magazine
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.magnificat.net"
+                    target=""
+                  >
+                    Magnificat
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/saint-mary-mazzarello">
+                    Mazzarello, Mary, Saint, Movie
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
+                    target=""
+                  >
+                    Monastery, benedictine Rule for Service
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/monastery-contemplative-life-today">
+                    Monastery, a look at comtemplative life today
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/music-olivera-my-heavenly-father-loves-me">
+                    Music, Reese Olivera, I know my Heavenly Father loves me
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/music-jesus-christ-is-holy-forever">
+                    Music, Jesus Christ is Holy Forever
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.newadvent.org"
+                    target=""
+                  >
+                    New Advent
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.newoxfordreview.org"
+                    target=""
+                  >
+                    New Oxford Review
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.youtube.com/watch?v=fRtBKz-48NI"
+                    target=""
+                  >
+                    Nun, day in the life, Video Documentary
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">
+                    Nuns, a glimpse into the beauty of a cloistered nun
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/nuns-a-life-all-for-God">
+                    Nuns, A life all for God Documentary
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://cloisteredlife.com/directory/salt-lake-city"
+                    target=""
+                  >
+                    Nuns, Carmelite, Utah
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/nuns-carmelite-slc-utah">
+                    Nuns, Carmelite, Utah
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <a className="flex flex-wrap" href="" target="">
+                    Nuns, Carmelite, Cloistered Life, Utah
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/nuns-dominican-sisters-of-saint-cecilia">
+                    Nuns, Dominican Sisters of Saint Cecilia Documentary
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://nashvilledominican.org"
+                    target=""
+                  >
+                    Nuns, Dominican Sisters of Saint Cecilia Website
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://nazareth.org"
+                    target=""
+                  >
+                    Nuns, Sisters of Charity of Nazareth, Website
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/nuns-passionate">
+                    Nuns, Passionists, Cloistered life
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/nuns-passionate-day-in-the-life">
+                    Nuns, Passionists, Day in the Life
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://passionistsnuns.org"
+                    target=""
+                  >
+                    Nuns, Passionists, website
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/saint-dominic-monastery">
+                    Nuns, Saint Dominic's Monastery Documentary
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap text-blue-500"
+                    href="https://www.lindenopnuns.org/"
+                    target=""
+                  >
+                    Nuns, Saint Dominic's Monastery Website (Please submit a
+                    financial donation for incomplete projects)
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/vocation-to-the-religious-life">
+                    Nuns, Vocation to the Religious Life
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.osv.com/"
+                    target=""
+                  >
+                    Our Sunday Visitor
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://fineartamerica.com/shop/canvas+prints/padre+pio?utm_source=bing&utm_medium=cpc&utm_campaign=DSA%20-%20Shop%20Pages&utm_content=Shop%20Pages&msclkid=6979599a49881ff3f6873e2ec5d1a0e7&utm_term=%2Fshop%2F"
+                    target=""
+                  >
+                    Pio, Padre
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://passionist.org/wp-content/uploads/2020/12/Diary_StudyGuide_cp.pdf"
+                    target=""
+                  >
+                    Prayer Guide, Saint Paul of the Cross, 1720
+                  </a>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/queens-funeral">
+                    Queen of England Funeral Procession
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/saint-rita-of-cascia">
+                    Rita, Saint of Cascia
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.stmarysmessenger.com"
+                    target=""
+                  >
+                    Saint Marys Messenger
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <Link href="/sister-servants-of-the-holy-spirit">
+                    Sister Servants of the Holy Spirit of Perpetual Adoration
+                  </Link>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.spiritdaily.com"
+                    target=""
+                  >
+                    Spirit Daily
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://upfaithandfamily.com/"
+                    target=""
+                  >
+                    Up Faith And Family
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.vaticannews.va/en.html"
+                    target=""
+                  >
+                    Vatican News
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://thewandererpress.com/"
+                    target=""
+                  >
+                    Wanderer Press
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.wau.org"
+                    target=""
+                  >
+                    Word Amoung Us
+                  </a>
+                </div>
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.wordonfire.org"
+                    target=""
+                  >
+                    Word On Fire
+                  </a>
+                </div>
+              </div>
+            </div>{" "}
+            {/* grid */}
           </div>
         </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-4- p-4-">
-
-        <div className="h-[100vh]- p-1">{children}</div>
-          
-          <div id="section1" className="lg:block lg:h-[100vh] p-4 mt-8">
-            
-            <div className="border-b-2">
-              <Link href="/kjv" target="">Holy Bible, KJV</Link>
-            </div>
-            
-            <div className="">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://www.mercyships.org/"
-                target="The mercy ships website"
-              >
-              The mercy ships website</a>
-            </div>
-
-            <div className="">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://www.stjude.org/"
-                target="The Saint Jude website"
-              >
-              The Saint Jude website</a>
-            </div>
-            
-            <div className="">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://missionariesofcharity.org/"
-                target="Mother Teresa of Calcutta missionaries of charity order website"
-              >
-              Mother Teresa of Calcutta missionaries of charity order website</a>
-            </div>
-            
-            <div className="">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://www.catholiccharitiesusa.org/"
-                target="Catholic Charities, USA website"
-              >
-              Catholic Charities, USA website</a>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="https://www.usccb.org/resources/2024cal.pdf" target="">Liturgical Calendar</Link>
-            </div>
-            <div className="">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://willowy-beijinho-1d8105.netlify.app/"
-                target=""
-              >
-              Precious Nuns and Convents Index</a>
-            </div>
-            <div className="border-b-2- mb-6- border-b-2- border-gray-500">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://saint-john-holy-3-cs.netlify.app/"
-                target="2025 Catholic Church Services Index"
-              >
-              2025 Catholic Church Services Index</a>
-            </div>
-            <div className="border-b-2- border-b-2- border-gray-500">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://colleges-index-site.netlify.app/"
-                target="Colleges Index"
-              >
-              Colleges Index</a>
-            </div>
-            <div className="border-b-2- mb-6 border-b-2- border-gray-500">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://tools-list-airports-2.netlify.app/"
-                target="tools-list-airports-2"
-              >
-              Compassion on the road</a>
-            </div>
-            <div className="mt-4 mb-4 font-bold italic underline">
-              <h1>
-                Catholic Christian Church Saints, Magazines, Websites, Reviews
-                and Movies
-              </h1>
-            </div>
-           
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://adoremus.org/"
-                target=""
-              >
-                Adoremus
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.americamagazine.org/"
-                target=""
-              >America Magazine, The Jesuit Review</a>
-            </div>
-           
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://angeluspress.org/products/the-angelus-magazine-international-1-year-subscription"
-                target=""
-              >
-                Angelus Press
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.archphila.org"
-                target=""
-              >
-                Archdiocese of Philadelphia
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
-                target=""
-              >
-                Monastery. Benedictine Rule for Service
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/saint-bernadette-movie">
-                Bernadette, Saint, Movie
-              </Link>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.biblegateway.com"
-                target=""
-              >
-                Bible Gateway
-              </a>
-            </div>
-            
-         
-
-            <div className="border-b-2">
-              <Link href="/cloisteredlife1">
-                Carmelites of the Carmel of Mary
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.gettyimages.com/search/2/image?page=5&phrase=largest%20cathedrals%20in%20the%20world&sort=mostpopular&license=rf%2Crm"
-                target=""
-              >
-                Cathedrals, Beautiful
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/cathedrals-largest">Cathedrals, Largest</Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholic.org"
-                target=""
-              >
-                Catholic
-              </a>
-            </div>
-			
-			    <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.aboutcatholics.com"
-                target=""
-              >
-                Catholics, About
-              </a>
-            </div>
-
-            
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.usccb.org"
-                target=""
-              >
-                Catholic Bishops, Conference of USA
-              </a>
-            </div>
-			
-			  <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://en.wikipedia.org/wiki/List_of_current_cardinals"
-                target=""
-              >
-                Catholic, Cardinals, List of Current, Wikipedia.com
-              </a>
-            </div>
-        
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholiccity.com"
-                target=""
-              >
-                Catholic City
-              </a>
-            </div>
-			
-			 <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.ncronline.org/news/demographic-forces-beyond-hierarchical-control-are-changing-us-church"
-                target=""
-              >
-                Catholic, Demographic Forces, National Catholic Register
-              </a>
-            </div>
-			
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholic.org/encyclopedia"
-                target=""
-              >
-                Catholic Encyclopedia
-              </a>
-            </div>
-			  <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholicworldreport.com/2025/02/17/diocesan-priestly-vocations-in-the-u-s-a-look-at-the-numbers/"
-                target=""
-              >
-                Catholic, Diocesan Priestly Vocations, a look at the numbers, Catholic World Report
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.ewtn.com"
-                target=""
-              >
-                Catholic EWTN
-              </a>
-            </div>
-			
-			    <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.youtube.com/watch?v=bBDjnjP_XK0"
-                target=""
-              >
-                Catholic, Gaza, The Catholic Church there
-              </a>
-            </div>
-			
-			 <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://beajesuit.org/"
-                target=""
-              >
-                Catholic, Jesuit, School to become
-              </a>
-            </div>
-			
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://subscribe-renew.com/us-catholic-magazine"
-                target=""
-              >
-                Catholic Magazine USA
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="/mass-march-15th-2025-father-pio-mentioned">
-                Catholic, Mass March 15th 2025 father Pio mentioned
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholic-mass-time.com"
-                target=""
-              >
-                Catholic Mass Time
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.lighthousecatholicmedia.org"
-                target=""
-              >
-                Catholic Media, Light House
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.mycatholic.com"
-                target=""
-              >
-                Catholic, My
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholicnews.com"
-                target=""
-              >
-                Catholic News
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.srol.org/assets/Adult-Faith-Formation/Prominent-Catholic-Periodicals.pdf"
-                target=""
-              >
-                Catholic Periodicals, Prominent
-              </a>
-            </div>
-			 <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.google.com/search?q=pope+francis+birth+name&oq=Pope+Francis+birth+name&gs_lcrp=EgZjaHJvbWUqDAgAEAAYRhj7ARiABDIMCAAQABhGGPsBGIAEMggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMg0IBxAAGIYDGIAEGIoFMg0ICBAAGIYDGIAEGIoFMg0ICRAAGIYDGIAEGIoF0gEJODk3OWowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8#vhid=gvd07n-j9Vt94M&vssid=l"
-                target=""
-              >
-                Catholic, Pope Francis, birth name
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://simple.wikipedia.org/wiki/Pope_Francis"
-                target=""
-              >
-                Catholic, Pope Francis, wikipedia.com
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.liguori.org"
-                target=""
-              >
-                Catholic Publication
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.ncregister.com/topic/pope-francis"
-                target=""
-              >
-                Catholic Register, National
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.stmichaelreno.org/"
-                target=""
-              >
-                Catholic, Saint Michael Catholic Church, Stead Nevada
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/ourladyofpeaceinhonolulu">
-                Catholic Shrine Basilica of Our Lady of Peace in Honolulu Hawaii
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.thecatholictelegraph.com/RK=2/RS=ypciuBU4YN77MVuYEMJNf0MVl.c-"
-                target=""
-              >
-                Catholic Telegraph
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.liguori.org/catholic-update"
-                target=""
-              >
-                Catholic Update
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.USCatholic.org"
-                target=""
-              >
-                Catholic, USA
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.catholicworldreport.com"
-                target=""
-              >
-                Catholic World Report
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="/chants-gregorian">
-                Chants, Gregorian
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.christlife.org"
-                target=""
-              >
-                Christ Life
-              </a>
-            </div>
-           
-            <div className="border-b-2">
-              <Link href="/christmas-angels">Christmas Angels</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/cloisteredlife-directory">Cloistered Life</Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.chnetwork.org"
-                target=""
-              >
-                Coming Home Network
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.usccb.org"
-                target=""
-              >
-                Conference of Catholic Bishops USA
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/saint-marianne-cope">Cope, Marianne, Saint</Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.crisismagazine.com"
-                target=""
-              >
-                Crisis Magazine
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.franciscanmedia.org/franciscan-spirit-blog/top-catholic-magazines/"
-                target=""
-              >
-                Franciscan Media
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/gospel-of-john-movie"> Gospel of John, Movie</Link>
-            </div>
-			<div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.blueletterbible.org"
-                target=""
-              >
-                Holy Bible, Blue Letter
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a href="https://www.hprweb.com/" target="">
-                Homiletic Pastoral Review
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://insidethevatican.com/"
-                target=""
-              >
-                Inside The Vatican
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://beajesuit.org"
-                target=""
-              >
-                Jesuits, A place to become a jesuit 
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.youtube.com/@SocietyofJesus"
-                target=""
-              >
-                Jesuits, The Society of precious Holy, Blessed Jesus Christ
-              </a>
-            </div>
-            
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://keepthefaith.org/latin-mass/"
-                target=""
-              >
-                Keep the Faith Latin Mass
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.loamagazine.org"
-                target=""
-              >
-                Loa Magazine
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.magnificat.net"
-                target=""
-              >
-                Magnificat
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/saint-mary-mazzarello">
-                Mazzarello, Mary, Saint, Movie
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://writersdepart.com/uploads/rule-of-st-benedict.pdf"
-                target=""
-              >
-                Monastery, benedictine Rule for Service
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/monastery-contemplative-life-today">
-                Monastery, a look at comtemplative life today
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="/music-olivera-my-heavenly-father-loves-me">
-                Music, Reese Olivera, I know my Heavenly Father loves me
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="/music-jesus-christ-is-holy-forever">
-                Music, Jesus Christ is Holy Forever
-              </Link>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.newadvent.org"
-                target=""
-              >
-                New Advent
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.newoxfordreview.org"
-                target=""
-              >
-                New Oxford Review
-              </a>
-            </div>
-
-			      <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.youtube.com/watch?v=fRtBKz-48NI"
-                target=""
-              >
-                Nun, day in the life, Video Documentary
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">Nuns, a glimpse into the beauty of a cloistered nun</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/nuns-a-life-all-for-God" >Nuns, A life all for God Documentary</Link>
-            </div>
-           
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://cloisteredlife.com/directory/salt-lake-city"
-                target=""
-              >
-                Nuns, Carmelite, Utah
-              </a>
-            </div>
-            
-			 <div className="border-b-2">
-              <Link href="/nuns-carmelite-slc-utah">Nuns, Carmelite, Utah</Link>
-            </div>
-			 <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href=""
-                target=""
-              >
-               Nuns, Carmelite, Cloistered Life, Utah 
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/nuns-dominican-sisters-of-saint-cecilia">Nuns, Dominican Sisters of Saint Cecilia Documentary</Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://nashvilledominican.org"
-                target=""
-              >
-               Nuns, Dominican Sisters of Saint Cecilia Website 
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://nazareth.org"
-                target=""
-              >
-               Nuns, Sisters of Charity of Nazareth, Website 
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="/nuns-passionate">Nuns, Passionists, Cloistered life</Link>
-            </div>
-            <div className="border-b-2">
-              <Link href="/nuns-passionate-day-in-the-life">Nuns, Passionists, Day in the Life</Link>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://passionistsnuns.org"
-                target=""
-              >
-               Nuns, Passionists, website 
-              </a>
-            </div>
-			
-			  <div className="border-b-2">
-              <Link href="/saint-dominic-monastery" >Nuns, Saint Dominic's Monastery Documentary</Link>
-            </div>
-			
-			 
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap text-blue-500"
-                href="https://www.lindenopnuns.org/"
-                target=""
-              >
-                Nuns, Saint Dominic's Monastery Website  (Please submit a financial donation for incomplete projects)
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <Link href="/vocation-to-the-religious-life">
-                Nuns, Vocation to the Religious Life
-              </Link>
-            </div>
-
-           
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.osv.com/"
-                target=""
-              >
-                Our Sunday Visitor
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://fineartamerica.com/shop/canvas+prints/padre+pio?utm_source=bing&utm_medium=cpc&utm_campaign=DSA%20-%20Shop%20Pages&utm_content=Shop%20Pages&msclkid=6979599a49881ff3f6873e2ec5d1a0e7&utm_term=%2Fshop%2F"
-                target=""
-              >
-                Pio, Padre
-              </a>
-            </div>
-
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://passionist.org/wp-content/uploads/2020/12/Diary_StudyGuide_cp.pdf"
-                target=""
-              >
-                Prayer Guide, Saint Paul of the Cross, 1720
-              </a>
-            </div>
-            
-            <div className="border-b-2">
-              <Link href="/queens-funeral">
-                Queen of England Funeral Procession
-              </Link>
-            </div>
-            
-            <div className="border-b-2">
-              <Link href="/saint-rita-of-cascia">
-                Rita, Saint of Cascia
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.stmarysmessenger.com"
-                target=""
-              >
-                Saint Marys Messenger
-              </a>
-            </div>
-            <div className="border-b-2">
-              <Link href="/sister-servants-of-the-holy-spirit">
-                Sister Servants of the Holy Spirit of Perpetual Adoration
-              </Link>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.spiritdaily.com"
-                target=""
-              >
-                Spirit Daily
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://upfaithandfamily.com/"
-                target=""
-              >
-                Up Faith And Family
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.vaticannews.va/en.html"
-                target=""
-              >
-                Vatican News
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://thewandererpress.com/"
-                target=""
-              >
-                Wanderer Press
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.wau.org"
-                target=""
-              >
-                Word Amoung Us
-              </a>
-            </div>
-            <div className="border-b-2">
-              <a
-                className="flex flex-wrap"
-                href="https://www.wordonfire.org"
-                target=""
-              >
-                Word On Fire
-              </a>
-            </div>
-          </div>
-
-
-        </div> {/* grid */}
-        </div>
-        </div>
-
       </body>
     </html>
   );
