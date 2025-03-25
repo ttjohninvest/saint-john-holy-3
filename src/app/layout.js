@@ -167,7 +167,7 @@ export default function RootLayout({ children }) {
                   <a
                     className="flex flex-wrap text-blue-500"
                     //href="https://willowy-beijinho-1d8105.netlify.app/"
-                    href="https://regal-manatee-a1981f.netlify.app/"
+                    href="https://willowy-strudel-5367d0.netlify.app/"
                     target=""
                   >
                     Precious Nuns and Convents Index
