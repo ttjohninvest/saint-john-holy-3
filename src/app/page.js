@@ -587,6 +587,17 @@ export default function page({ children }) {
               title="Oksana Baiul"
             ></img>
           </div>
+
+          <div className="">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/playing-harp-with-emma-singing-rieu.png"
+              alt="Playinig harp with Emma singing Rieu"
+              title="Playing harp with Emma singing Rieu"
+            ></img>
+          </div>
         </div>
 
       
