@@ -548,7 +548,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500">
                   <Link href="/chants-gregorian">Chants, Gregorian</Link>
                 </div>
 
