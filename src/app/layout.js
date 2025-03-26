@@ -765,7 +765,7 @@ export default function RootLayout({ children }) {
                     href="https://heartsawake.org/"
                     target=""
                   >
-                    Nuns, Carmelite, Terre Haute Indiana, please see nuns a glimpse ... above too
+                    Nuns, Carmelite, Terre Haute Indiana website, please see nuns a glimpse ... above too
                   </a>
                 </div>
 
