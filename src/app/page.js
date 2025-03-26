@@ -6,16 +6,12 @@ import Link from "next/link";
 export default function page({ children }) {
   return (
     <div className="border-4- border-white- p-4">
-     
       <div className="">
         <div>
-
-           
-       
-		  <div className="text-center mt-8 mb-4">
+          <div className="text-center mt-8 mb-4">
             I welcome you to Saint John's Page. Peace be with you.
           </div>
-         
+
           <div className="text-center mt-8">
             Welcome Holy Spirit Adoration Sisters of Christ the King
           </div>
@@ -149,7 +145,7 @@ export default function page({ children }) {
               title="Pope is released from hospital, yes, thank you Jesus Christ."
             ></img>
           </div>
-          
+
           <div className="">
             <img
               width="100"
@@ -200,7 +196,7 @@ export default function page({ children }) {
               title="A picture of my precious Jesus Christ at 12 years old with the teachers."
             ></img>
           </div>
-         
+
           <div className="">
             <img
               width="100"
@@ -270,7 +266,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/holy-precious-jesus-with-his-precious-blessed-mother-mary.png"
+              src="/holy-precious-jesus-with-his-precious-blessed-mother-mary.avif"
               alt="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
               title="A picture of my beloved holy precious Jesus Christ with his precious blessed mother Mary is wonderful."
             ></img>
@@ -341,8 +337,8 @@ export default function page({ children }) {
               title="Saint Brigid"
             ></img>
           </div>
-		  
-		  <div className="">
+
+          <div className="">
             <img
               width="100"
               height="100"
@@ -352,8 +348,8 @@ export default function page({ children }) {
               title="singing-of-the-holy-rosary-2"
             ></img>
           </div>
-		  
-		    <div className="">
+
+          <div className="">
             <img
               width="100"
               height="100"
@@ -373,7 +369,7 @@ export default function page({ children }) {
               alt="A wonderful picture of saint Catherine of miraculous medal"
               title="A wonderful picture of saint Catherine of miraculous medal"
             ></img>
-          </div> 
+          </div>
 
           <div className="">
             <img
@@ -536,7 +532,7 @@ export default function page({ children }) {
               title="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
             ></img>
           </div>
-          
+
           <div className="">
             <img
               width="100"
@@ -599,10 +595,6 @@ export default function page({ children }) {
             ></img>
           </div>
         </div>
-
-      
-        
-
       </div>
     </div>
   );
