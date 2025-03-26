@@ -749,7 +749,8 @@ export default function RootLayout({ children }) {
                 </div>
                 <div className="border-b-2 bg-orange-500">
                   <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">
-                    Nuns, a glimpse into the beauty of a cloistered nun, carmelite monastery, indiana
+                    Nuns, a glimpse into the beauty of a cloistered nun,
+                    carmelite monastery, indiana
                   </Link>
                 </div>
                 <div className="border-b-2">
@@ -757,7 +758,6 @@ export default function RootLayout({ children }) {
                     Nuns, A life all for God Documentary
                   </Link>
                 </div>
-                
 
                 <div className="border-b-2 bg-orange-500">
                   <a
@@ -765,7 +765,18 @@ export default function RootLayout({ children }) {
                     href="https://heartsawake.org/"
                     target=""
                   >
-                    Nuns, Carmelite, Terre Haute Indiana website, please see nuns a glimpse ... above too
+                    Nuns, Carmelite, Terre Haute Indiana website, please see
+                    nuns a glimpse ... above too
+                  </a>
+                </div>
+
+                <div className="border-b-2 bg-orange-500">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://carmelitesholyface.com/"
+                    target=""
+                  >
+                    Nuns, Carmelites of the Holy Face of Christ website
                   </a>
                 </div>
 
