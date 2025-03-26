@@ -747,7 +747,7 @@ export default function RootLayout({ children }) {
                     Nun, day in the life, Video Documentary
                   </a>
                 </div>
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500">
                   <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">
                     Nuns, a glimpse into the beauty of a cloistered nun
                   </Link>
