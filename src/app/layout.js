@@ -814,12 +814,12 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500">
                   <Link href="/nuns-passionate">
                     Nuns, Passionists, Cloistered life
                   </Link>
                 </div>
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500">
                   <Link href="/nuns-passionate-day-in-the-life">
                     Nuns, Passionists, Day in the Life
                   </Link>
