@@ -140,7 +140,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/pope-is-released-from-hospital.png"
+              src="/pope-is-released-from-hospital.avif"
               alt="Pope is released from hospital, yes"
               title="Pope is released from hospital, yes, thank you Jesus Christ."
             ></img>
@@ -151,7 +151,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/catherine-mcauley-sisters-of-mercy.png"
+              src="/catherine-mcauley-sisters-of-mercy.avif"
               alt="Catherine McCauley Sisters of Mercy"
               title="Catherine McCauley Sisters of Mercy"
             ></img>
@@ -161,7 +161,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/mercy-ships-helping.png"
+              src="/mercy-ships-helping.avif"
               alt="staff on mercy ships helping"
               title="staff on mercy ships helping, their website is at mercyships.org"
             ></img>
@@ -171,7 +171,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/beautiful-life-of-a-cloistered-nun.png"
+              src="/beautiful-life-of-a-cloistered-nun.avif"
               alt="beautiful life of a cloistered nun"
               title="beautiful life of a cloistered nun"
             ></img>
@@ -181,7 +181,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/mother-catherine-mcauley.png"
+              src="/mother-catherine-mcauley.avif"
               alt="Mother Catherine McAuley"
               title="Mother Catherine McAuley"
             ></img>
@@ -191,7 +191,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
-              src="/Precious-Jesus-with-the-teachers.png"
+              src="/Precious-Jesus-with-the-teachers.avif"
               alt="A picture of my precious Jesus Christ at 12 years old with the teachers."
               title="A picture of my precious Jesus Christ at 12 years old with the teachers."
             ></img>
@@ -202,7 +202,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-peters-basilica-1.png"
+              src="/saint-peters-basilica-1.avif"
               alt="Saint Peter's Basilica"
               title="Saint Peter's Basilica"
             ></img>
@@ -213,7 +213,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-brigid.png"
+              src="/saint-brigid.avif"
               alt="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
@@ -223,7 +223,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4 border-2 border-blue-500"
-              src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.png"
+              src="/the-Cross-in-Our-Lady-Of-Peace-in-Honolulu.avif"
               alt="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
@@ -233,7 +233,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/blessed-mother-mary-1.png"
+              src="/blessed-mother-mary-1.avif"
               alt="A picture of the blessed mother Mary."
               title="A picture of the blessed mother Mary."
             ></img>
@@ -244,7 +244,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/adoration-2.png"
+              src="/adoration-2.avif"
               alt="Adoration of the Eucharist."
               title="Adoration of the Eucharist."
             ></img>
@@ -255,7 +255,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/father-aledel.png"
+              src="/father-aledel.avif"
               alt="Father Aledel"
               title="Father Aledel"
             ></img>
@@ -277,7 +277,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/adoration-1.png"
+              src="/adoration-1.avif"
               alt="Adoration of the Eucharist."
               title="Adoration of the Eucharist."
             ></img>
@@ -288,7 +288,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/jesus-christ-2.png"
+              src="/jesus-christ-2.avif"
               alt="A precious picture of Jesus Christ who rose from the dead is wonderful."
               title="A precious picture of Jesus Christ who rose from the dead is wonderful."
             ></img>
@@ -310,7 +310,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/precious-queen-with-jesus-now.png"
+              src="/precious-queen-with-jesus-now.avif"
               alt="Precious beloved Queen of England who is with Jesus Christ now."
               title="Precious beloved Queen of England who is with Jesus Christ now."
             ></img>
@@ -321,7 +321,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-catherine-of-miraculous-medal-2.png"
+              src="/saint-catherine-of-miraculous-medal-2.avif"
               alt="A picture of saint Catherine of miraculous medal"
               title="A picture of saint Catherine of miraculous medal"
             ></img>
@@ -332,7 +332,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-brigid.png"
+              src="/saint-brigid.avif"
               alt="Saint Brigid"
               title="Saint Brigid"
             ></img>
@@ -343,7 +343,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/singing-of-the-holy-rosary-2.png"
+              src="/singing-of-the-holy-rosary-2.avif"
               alt="singing-of-the-holy-rosary-2"
               title="singing-of-the-holy-rosary-2"
             ></img>
@@ -354,7 +354,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/picture-of-jesus-christ-healing.png"
+              src="/picture-of-jesus-christ-healing.avif"
               alt="picture-of-jesus-christ-healing"
               title="picture-of-jesus-christ-healing"
             ></img>
@@ -365,7 +365,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-catherine-of-miraculous-medal.png"
+              src="/saint-catherine-of-miraculous-medal.avif"
               alt="A wonderful picture of saint Catherine of miraculous medal"
               title="A wonderful picture of saint Catherine of miraculous medal"
             ></img>
@@ -376,7 +376,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-catherine-with-mother-mary-in-her-chapel.png"
+              src="/saint-catherine-with-mother-mary-in-her-chapel.avif"
               alt="Saint Catherine with blessed mother mary in her convent chapel"
               title="Saint Catherine with blessed mother mary in her convent chapel"
             ></img>
@@ -387,7 +387,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-catherine-of-miraculous-medal-2.png"
+              src="/saint-catherine-of-miraculous-medal-2.avif"
               alt="A picture of saint Catherine of miraculous medal"
               title="A picture of saint Catherine of miraculous medal"
             ></img>
@@ -398,7 +398,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-vincent-1.png"
+              src="/saint-vincent-1.avif"
               alt="A picture of saint Vincent"
               title="A picture of saint Vincent"
             ></img>
@@ -409,7 +409,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-vincent-2.png"
+              src="/saint-vincent-2.avif"
               alt="A picture of saint Vincent"
               title="A picture of saint Vincent"
             ></img>
@@ -420,7 +420,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/saint-with-vision-of-the-blessed-mary.png"
+              src="/saint-with-vision-of-the-blessed-mary.avif"
               alt="Saint Catherine with vision of the blessed mother Mary"
               title="Saint Catherine with vision of the blessed mother Mary"
             ></img>
@@ -431,7 +431,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/vincentian-fathers-and-sisters-of-charity-1.png"
+              src="/vincentian-fathers-and-sisters-of-charity-1.avif"
               alt="A picture of Vincentian fathers and the sisters of charity."
               title="A picture of Vincentian fathers and the sisters of charity."
             ></img>
@@ -453,7 +453,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/nun-day-in-the-life.png"
+              src="/nun-day-in-the-life.avif"
               alt="Nun, day in the life"
               title="Nun, day in the life"
             ></img>
@@ -464,7 +464,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/gregorian-chants.png"
+              src="/gregorian-chants.avif"
               alt="Gregorian Chants"
               title="Gregorian Chants"
             ></img>
@@ -475,7 +475,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/passionate-nuns-mother.png"
+              src="/passionate-nuns-mother.avif"
               alt="Passionate nuns mother"
               title="Passionate nuns mother"
             ></img>
@@ -486,7 +486,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/mary-with-jesus-4.png"
+              src="/mary-with-jesus-4.avif"
               alt="Mary with Jesus"
               title="Mary with Jesus"
             ></img>
@@ -496,7 +496,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/convent-of-passionate-nuns.png"
+              src="/convent-of-passionate-nuns.avif"
               alt="Only good things go on here, yes"
               title="Only good things go on here, yes"
             ></img>
@@ -506,7 +506,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/a-picture-of-my-dear-precious-jesus-christ.png"
+              src="/a-picture-of-my-dear-precious-jesus-christ.avif"
               alt="A picture of my dear precious Jesus Christ"
               title="A picture of my dear precious Jesus Christ"
             ></img>
@@ -516,7 +516,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/pope-francis.png"
+              src="/pope-francis.avif"
               alt="A pricture of Pope Francis with some friends in the Catholic Church"
               title="A pricture of Pope Francis with some friends in the Catholic Church"
             ></img>
@@ -527,7 +527,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/pope-francis-2.png"
+              src="/pope-francis-2.avif"
               alt="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
               title="A precious pricture with other cardinals of Cardinal Bergoglio talking. The Catholic Church needs a new Pope. Thank you Jesus Christ."
             ></img>
@@ -538,7 +538,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/nuns-two-nuns-from-the-passionate-nuns-kentucky.png"
+              src="/nuns-two-nuns-from-the-passionate-nuns-kentucky.avif"
               alt="A precious picture of two nuns from the Passionate Nuns Cloistered life"
               title="A precious picture of two nuns from the Passionate Nuns Cloistered life"
             ></img>
@@ -548,7 +548,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/nuns-precious-from-nashville-dominican-documentary.png"
+              src="/nuns-precious-from-nashville-dominican-documentary.avif"
               alt="A precious picture of nuns in group picture from the Nashville Dominicans Documentary"
               title="A precious picture of nuns in group picture from the Nashville Dominicans Documentary"
             ></img>
@@ -558,7 +558,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/nuns-group-picture-of-passionate-nuns.png"
+              src="/nuns-group-picture-of-passionate-nuns.avif"
               alt="A precious group picture of passionate nuns"
               title="A precious group picture of passionate nuns"
             ></img>
@@ -568,7 +568,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/woman-smiling.png"
+              src="/woman-smiling.avif"
               alt="woman smiling"
               title="woman smiling"
             ></img>
@@ -578,7 +578,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/oksana-baiul.png"
+              src="/oksana-baiul.avif"
               alt="oksana-baiul"
               title="Oksana Baiul"
             ></img>
@@ -589,7 +589,7 @@ export default function page({ children }) {
               width="100"
               height="150"
               className="w-full mt-4"
-              src="/playing-harp-with-emma-singing-rieu.png"
+              src="/playing-harp-with-emma-singing-rieu.avif"
               alt="Playinig harp with Emma singing Rieu"
               title="Playing harp with Emma singing Rieu"
             ></img>
