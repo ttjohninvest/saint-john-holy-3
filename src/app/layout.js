@@ -762,6 +762,17 @@ export default function RootLayout({ children }) {
                 <div className="border-b-2 bg-orange-500">
                   <a
                     className="flex flex-wrap"
+                    href="https://rosaryhillhome.org/"
+                    target="Nuns freely caring for the sick, poor and dying at Rosary hill"
+                  >
+                    Nuns freely caring for the sick, poor and dying at Rosary
+                    Hill
+                  </a>
+                </div>
+
+                <div className="border-b-2 bg-orange-500">
+                  <a
+                    className="flex flex-wrap"
                     href="https://heartsawake.org/"
                     target=""
                   >
