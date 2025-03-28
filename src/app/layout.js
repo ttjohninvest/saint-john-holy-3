@@ -816,6 +816,17 @@ export default function RootLayout({ children }) {
                     Nuns, Dominican Sisters of Saint Cecilia Documentary
                   </Link>
                 </div>
+
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.hawthorne-dominicans.org/"
+                    target=""
+                  >
+                    Nuns, Dominican Sisters of Hawthorne caring for poor human doctor incurable cancer patients
+                  </a>
+                </div>
+
                 <div className="border-b-2">
                   <a
                     className="flex flex-wrap"
