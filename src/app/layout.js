@@ -748,6 +748,11 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
                 <div className="border-b-2 bg-orange-500">
+                  <Link href="/nuns-passionate">
+                    Nun, Mother Mary Alphonsa Documentary
+                  </Link>
+                </div>
+                <div className="border-b-2 bg-orange-500">
                   <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">
                     Nuns, a glimpse into the beauty of a cloistered nun,
                     carmelite monastery, indiana
@@ -836,6 +841,8 @@ export default function RootLayout({ children }) {
                     Nuns, Dominican Sisters of Saint Cecilia Website
                   </a>
                 </div>
+
+               
 
                 <div className="border-b-2">
                   <a
