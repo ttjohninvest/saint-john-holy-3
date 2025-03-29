@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
                     width="50"
                     height="50"
                     className="m-4 w-48 h-48 rounded-full"
-                    src="/mary-with-jesus-2.png"
+                    src="/mary-with-jesus-2.avif"
                     alt="jesus"
                   ></Image>
                 </div>
@@ -98,7 +98,7 @@ export default function RootLayout({ children }) {
                     width="50"
                     height="50"
                     className="m-4 w-48 h-48 rounded-full"
-                    src="/angel2sm.png"
+                    src="/angel2sm.avif"
                     alt="angel"
                   ></Image>
                 </div>
