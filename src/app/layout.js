@@ -748,6 +748,11 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
                 <div className="border-b-2 bg-orange-500">
+                  <Link href="/nun-interview-with-a-precious-cloistered-nun">
+                    Nun, interview with a precious cloistered nun
+                  </Link>
+                </div>
+                <div className="border-b-2 bg-orange-500">
                   <Link href="/mother-mary-alphonsa-documentary">
                     Nun, Mother Mary Alphonsa Documentary
                   </Link>
