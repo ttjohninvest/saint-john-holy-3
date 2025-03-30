@@ -837,6 +837,16 @@ export default function RootLayout({ children }) {
                     Nuns, Carmelite, Cloistered Life, Utah
                   </a>
                 </div>
+                
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://disciplesofthelordjesuschrist.org/"
+                    target=""
+                  >
+                    Nuns, Disciples of the Lord Jesus Christ Website
+                  </a>
+                </div>
                 <div className="border-b-2">
                   <Link href="/nuns-dominican-sisters-of-saint-cecilia">
                     Nuns, Dominican Sisters of Saint Cecilia Documentary
