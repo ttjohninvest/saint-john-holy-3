@@ -163,6 +163,15 @@ export default function RootLayout({ children }) {
                     Liturgical Calendar
                   </Link>
                 </div>
+                <div className="border-b-2 bg-orange-500">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://cmswr.org/"
+                    target="Nuns, Council of Major Superiors of Women Religious Website"
+                  >
+                    Nuns, Council of Major Superiors of Women Religious Internet Pages
+                  </a>
+                </div>
                 <div className="">
                   <a
                     className="flex flex-wrap text-blue-500"
@@ -773,6 +782,8 @@ export default function RootLayout({ children }) {
                     Nuns, A life all for God Documentary
                   </Link>
                 </div>
+                
+               
 
                 <div className="border-b-2 bg-orange-500">
                   <a
