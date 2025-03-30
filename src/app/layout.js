@@ -757,6 +757,11 @@ export default function RootLayout({ children }) {
                     Nun, Mother Mary Alphonsa Documentary
                   </Link>
                 </div>
+                <div className="border-b-2">
+                  <Link href="/nun-vocation-testimony-of-sister-therese-marie">
+                    Nun, Vocation Testimony of Sister Therese Marie
+                  </Link>
+                </div>
                 <div className="border-b-2 bg-orange-500">
                   <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">
                     Nuns, a glimpse into the beauty of a cloistered nun,
