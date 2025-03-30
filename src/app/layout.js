@@ -838,7 +838,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
                 
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500">
                   <a
                     className="flex flex-wrap"
                     href="https://disciplesofthelordjesuschrist.org/"
