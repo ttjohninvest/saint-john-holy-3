@@ -209,6 +209,11 @@ export default function RootLayout({ children }) {
                     Compassion on the road
                   </a>
                 </div>
+                <div className="border-b-2">
+                  <Link href="/seed-how-one-grows" className="text-blue-500">
+                    Seed, how one grows
+                  </Link>
+                </div>
                 <div className="mt-4 mb-4 font-bold italic underline">
                   <h1>
                     Catholic Christian Church Saints, Magazines, Websites,
