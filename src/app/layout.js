@@ -169,7 +169,7 @@ export default function RootLayout({ children }) {
                     href="https://cmswr.org/"
                     target="Nuns, Council of Major Superiors of Women Religious Website"
                   >
-                    Nuns, Council of Major Superiors of Women Religious Internet Pages
+                    Nuns, Council of Major Superiors of Women Religious Website
                   </a>
                 </div>
                 <div className="">
@@ -916,6 +916,12 @@ export default function RootLayout({ children }) {
                 <div className="border-b-2">
                   <Link href="/vocation-to-the-religious-life">
                     Nuns, Vocation to the Religious Life
+                  </Link>
+                </div>
+
+                <div className="border-b-2">
+                  <Link href="/nuns-vocation-testimonies-of-the-franciscan-sisters">
+                    Nuns, Vocation Testimonies of the Franciscan Sisters
                   </Link>
                 </div>
 
