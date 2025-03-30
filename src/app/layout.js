@@ -163,7 +163,7 @@ export default function RootLayout({ children }) {
                     Liturgical Calendar
                   </Link>
                 </div>
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2 bg-orange-500-">
                   <a
                     className="flex flex-wrap"
                     href="https://cmswr.org/"
