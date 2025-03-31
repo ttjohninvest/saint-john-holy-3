@@ -200,7 +200,7 @@ export default function RootLayout({ children }) {
                     Colleges Index
                   </a>
                 </div>
-                <div className="border-b-2- mb-6 border-b-2- border-gray-500">
+                <div className="border-b-2- border-b-2- border-gray-500">
                   <a
                     className="flex flex-wrap text-blue-500"
                     href="https://tools-list-airports-4.netlify.app/"
@@ -209,7 +209,7 @@ export default function RootLayout({ children }) {
                     Compassion on the road
                   </a>
                 </div>
-                <div className="border-b-2">
+                <div className="border-b-2 mb-6">
                   <Link href="/seed-how-one-grows" className="text-blue-500">
                     Seed, how one grows
                   </Link>
