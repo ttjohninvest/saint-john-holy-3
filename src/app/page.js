@@ -26,7 +26,7 @@ export default function page({ children }) {
 
           <div>
             <span className="text-green-500">
-              KJV Romans 10:13: For whosoever shall call upon the name of the
+              The King James Version of the Holy Bible says Romans 10:13: For whosoever shall call upon the name of the
               Lord shall be saved.
             </span>
           </div>
