@@ -628,6 +628,16 @@ export default function RootLayout({ children }) {
                     Gospel of John, Movie
                   </Link>
                 </div>
+               
+                <div className="border-b-2">
+                  <a
+                    className="flex flex-wrap"
+                    href=" https://www.ourladyofthedesert.org/guesthouse/"
+                    target=""
+                  >
+                    Guest House, Convent in Gobernador New Mexico
+                  </a>
+                </div>
                 <div className="border-b-2">
                   <a
                     className="flex flex-wrap"
