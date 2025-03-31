@@ -629,7 +629,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
                
-                <div className="border-b-2">
+                <div className="border-b-2 text-orange-500">
                   <a
                     className="flex flex-wrap"
                     href=" https://www.ourladyofthedesert.org/guesthouse/"
