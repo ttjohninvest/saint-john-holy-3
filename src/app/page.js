@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function page({ children }) {
   return (
     <div className="border-4- border-white- p-4">
-      <div className="">
+      <div className="rounded-lg">
         <div>
          
           <div className="text-center mt-8 mb-4">
@@ -140,7 +140,7 @@ export default function page({ children }) {
             recently and I love them both, The Gospel of John, English Version
             The song of Saint Bernadette, movie.
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -151,7 +151,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -161,7 +161,7 @@ export default function page({ children }) {
               title="Catherine McCauley Sisters of Mercy"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -171,7 +171,7 @@ export default function page({ children }) {
               title="staff on mercy ships helping, their website is at mercyships.org"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -181,7 +181,7 @@ export default function page({ children }) {
               title="beautiful life of a cloistered nun"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -191,7 +191,7 @@ export default function page({ children }) {
               title="Mother Catherine McAuley"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -202,7 +202,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -213,7 +213,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -223,7 +223,7 @@ export default function page({ children }) {
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -233,7 +233,7 @@ export default function page({ children }) {
               title="The cross in the Catholic Church of Our Lady of Peace in the location where my precious Jesus Christ healed my eyes in Honolulu."
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -244,7 +244,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -255,7 +255,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -266,7 +266,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -277,7 +277,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -288,7 +288,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -299,7 +299,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -310,7 +310,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -321,7 +321,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -332,7 +332,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -343,7 +343,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -354,7 +354,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -365,7 +365,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -376,7 +376,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -387,7 +387,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -398,7 +398,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -409,7 +409,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -420,7 +420,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -431,7 +431,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -442,7 +442,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -453,7 +453,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -464,7 +464,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -475,7 +475,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="100"
@@ -486,7 +486,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -496,7 +496,7 @@ export default function page({ children }) {
               title="Mary with Jesus"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -506,7 +506,7 @@ export default function page({ children }) {
               title="Only good things go on here, yes"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -516,7 +516,7 @@ export default function page({ children }) {
               title="A picture of my dear precious Jesus Christ"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -527,7 +527,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -538,7 +538,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -548,7 +548,7 @@ export default function page({ children }) {
               title="A precious picture of two nuns from the Passionate Nuns Cloistered life"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -558,7 +558,7 @@ export default function page({ children }) {
               title="A precious picture of nuns in group picture from the Nashville Dominicans Documentary"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -568,7 +568,7 @@ export default function page({ children }) {
               title="A precious group picture of passionate nuns"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -578,7 +578,7 @@ export default function page({ children }) {
               title="woman smiling"
             ></img>
           </div>
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
@@ -589,7 +589,7 @@ export default function page({ children }) {
             ></img>
           </div>
 
-          <div className="">
+          <div className="rounded-lg">
             <img
               width="100"
               height="150"
