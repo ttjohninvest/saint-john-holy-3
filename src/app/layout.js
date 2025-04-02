@@ -977,13 +977,13 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500">
                   <a
                     className="flex flex-wrap"
                     href="https://youtube.com/shorts/CEvWxY-gpbs?feature=shared"
                     target=""
                   >
-                    Prison Ministry, A precious person being baptized
+                    Prison Ministry, A precious person joyfully being baptized, wow
                   </a>
                 </div>
 
