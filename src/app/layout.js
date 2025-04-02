@@ -209,7 +209,12 @@ export default function RootLayout({ children }) {
                     Compassion on the road
                   </a>
                 </div>
-                <div className="border-b-2 mb-6">
+                <div className="border-b-2 mb-6-">
+                  <Link href="/7-signs-precious-dear-almighty-god-is-helping-you" className="text-blue-500">
+                    7 signs Precious Dear Almighty is helping you
+                  </Link>
+                </div>
+                <div className="border-b-2 mb-6-">
                   <Link href="/seed-how-one-grows" className="text-blue-500">
                     Seed, how one grows
                   </Link>
