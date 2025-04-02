@@ -8,10 +8,10 @@ export default function page({ children }) {
     <div className="border-4- border-white- p-4">
       <div className="">
         <div>
-          <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/DSj8K4wcoz4?si=LvUCZ0_xD0hu-bEI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </div>
           <div className="text-center mt-8 mb-4">
+          <iframe width="280" height="157" src="https://www.youtube.com/embed/DSj8K4wcoz4?si=LvUCZ0_xD0hu-bEI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
+          <div className="text-center mt-8- mb-4">
             I welcome you to Saint John's Page. Peace be with you.
           </div>
 
