@@ -117,6 +117,18 @@ export default function RootLayout({ children }) {
                 <div className="">
                   <a
                     className="flex flex-wrap text-blue-500"
+                    href="https://www.hawthorne-dominicans.org/rose-hawthorne"
+                    target=""
+                    title="A brief biography of Rose Hawthorne, Precious Mother Alphonsa who cared for dying cancer patients free of charge."
+                  >
+                    Brief Biography of Rose Hawthorne, Precious Mother Alphonsa
+                    who cared for dying cancer patients free of charge.
+                  </a>
+                </div>
+
+                <div className="">
+                  <a
+                    className="flex flex-wrap text-blue-500"
                     href="https://www.mercyships.org/"
                     target="The mercy ships website"
                   >
@@ -210,7 +222,10 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
                 <div className="border-b-2 mb-6-">
-                  <Link href="/7-signs-precious-dear-almighty-god-is-helping-you" className="text-blue-500">
+                  <Link
+                    href="/7-signs-precious-dear-almighty-god-is-helping-you"
+                    className="text-blue-500"
+                  >
                     7 signs Precious Dear Almighty is helping you
                   </Link>
                 </div>
@@ -988,7 +1003,8 @@ export default function RootLayout({ children }) {
                     href="https://youtube.com/shorts/CEvWxY-gpbs?feature=shared"
                     target=""
                   >
-                    Prison Ministry, A precious person joyfully being baptized, wow
+                    Prison Ministry, A precious person joyfully being baptized,
+                    wow
                   </a>
                 </div>
 
