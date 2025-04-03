@@ -114,7 +114,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
 
-                <div className="bg-orange-500">
+                <div className=" bg-orange-500 rounded-md p-2">
                   <a
                     className="flex flex-wrap"
                     href="https://www.hawthorne-dominicans.org/rose-hawthorne"
@@ -174,7 +174,7 @@ export default function RootLayout({ children }) {
                     Liturgical Calendar
                   </Link>
                 </div>
-                <div className="border-b-2 bg-orange-500-">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  -">
                   <a
                     className="flex flex-wrap text-blue-500"
                     href="https://cmswr.org/"
@@ -581,7 +581,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/chants-gregorian">Chants, Gregorian</Link>
                 </div>
 
@@ -648,7 +648,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <a
                     className="flex flex-wrap"
                     href=" https://www.ourladyofthedesert.org/guesthouse/"
@@ -790,12 +790,12 @@ export default function RootLayout({ children }) {
                     Nun, day in the life, Video Documentary
                   </a>
                 </div>
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/nun-interview-with-a-precious-cloistered-nun">
                     Nun, interview with a precious cloistered nun
                   </Link>
                 </div>
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/mother-mary-alphonsa-documentary">
                     Nun, Mother Mary Alphonsa Documentary
                   </Link>
@@ -805,7 +805,7 @@ export default function RootLayout({ children }) {
                     Nun, Vocation Testimony of Sister Therese Marie
                   </Link>
                 </div>
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/nuns-a-glimpse-into-the-beauty-of-a-cloistered-nun">
                     Nuns, a glimpse into the beauty of a cloistered nun,
                     carmelite monastery, indiana
@@ -817,7 +817,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <a
                     className="flex flex-wrap"
                     href="https://rosaryhillhome.org/"
@@ -828,7 +828,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <a
                     className="flex flex-wrap"
                     href="https://heartsawake.org/"
@@ -839,7 +839,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <a
                     className="flex flex-wrap"
                     href="https://carmelitesholyface.com/"
@@ -870,7 +870,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <a
                     className="flex flex-wrap"
                     href="https://disciplesofthelordjesuschrist.org/"
@@ -916,12 +916,12 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/nuns-passionate">
                     Nuns, Passionists, Cloistered life
                   </Link>
                 </div>
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/nuns-passionate-day-in-the-life">
                     Nuns, Passionists, Day in the Life
                   </Link>
@@ -996,7 +996,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <a
                     className="flex flex-wrap"
                     href="https://youtube.com/shorts/CEvWxY-gpbs?feature=shared"
