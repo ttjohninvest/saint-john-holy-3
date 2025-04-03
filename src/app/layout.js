@@ -176,7 +176,7 @@ export default function RootLayout({ children }) {
                 </div>
                 <div className="border-b-2  bg-orange-500 rounded-md p-2  -">
                   <a
-                    className="flex flex-wrap text-blue-500"
+                    className="flex flex-wrap"
                     href="https://cmswr.org/"
                     title="Nuns, Council of Major Superiors of Women Religious Website"
                   >
