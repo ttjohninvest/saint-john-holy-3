@@ -113,6 +113,16 @@ export default function RootLayout({ children }) {
                     Holy Bible, KJV
                   </Link>
                 </div>
+               
+                <div className=" bg-orange-500 rounded-md p-2">
+                  <a
+                    className="flex flex-wrap"
+                    href=" https://www.rgj.com/obituaries/rgj051008"
+                    title=""
+                  >
+                    My beloved teacher, Dr. Wishart. Someone worth remembering.
+                  </a>
+                </div>
 
                 <div className=" bg-orange-500 rounded-md p-2">
                   <a
@@ -124,6 +134,7 @@ export default function RootLayout({ children }) {
                     who cared for dying cancer patients free of charge.
                   </a>
                 </div>
+              
 
                 <div className="">
                   <a
