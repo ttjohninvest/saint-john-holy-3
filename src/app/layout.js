@@ -114,7 +114,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
                
-                <div className=" bg-orange-500 rounded-md p-2">
+                <div className=" bg-orange-500 rounded-md p-2 mb-2">
                   <a
                     className="flex flex-wrap"
                     href=" https://www.rgj.com/obituaries/rgj051008"
