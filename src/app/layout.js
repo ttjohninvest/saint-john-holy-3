@@ -953,6 +953,11 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
                 <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
+                  <Link href="/monks-passionists">
+                    Monks, Passionists, Cloistered life
+                  </Link>
+                </div>
+                <div className="border-b-2  bg-orange-500 rounded-md p-2  ">
                   <Link href="/nuns-passionate-day-in-the-life">
                     Nuns, Passionists, Day in the Life
                   </Link>
