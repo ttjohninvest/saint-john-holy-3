@@ -117,10 +117,30 @@ export default function RootLayout({ children }) {
                 <div className=" bg-orange-500 rounded-md p-2 mb-2">
                   <a
                     className="flex flex-wrap"
-                    href=" https://www.rgj.com/obituaries/rgj051008"
+                    href="https://www.rgj.com/obituaries/rgj051008"
                     title=""
                   >
                     My beloved teacher, Dr. Wishart. Someone worth remembering.
+                  </a>
+                </div>
+
+                <div className=" bg-orange-500 rounded-md p-2 mb-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.legacy.com/us/obituaries/rgj/name/robert-langsner-obituary?id=22522568"
+                    title=""
+                  >
+                    My beloved teacher, Robert Langsner. My Friend and someone worth remembering.
+                  </a>
+                </div>
+                
+                <div className=" bg-orange-500 rounded-md p-2 mb-2">
+                  <a
+                    className="flex flex-wrap"
+                    href="https://www.findagrave.com/memorial/172723537/robert-george-langsner"
+                    title=""
+                  >
+                    My beloved teacher, Robert Langsner. My Friend and someone worth remembering.
                   </a>
                 </div>
 
