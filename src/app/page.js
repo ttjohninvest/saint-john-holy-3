@@ -14,12 +14,12 @@ export default function page({ children }) {
           </div>
 
           <div className="flex flex-row justify-center mt-4 rounded-lg flex-wrap gap-4">
-            <div className="ml-4">
+            <div className="ml-4 mr-4 lg:ml-4 lg:mr-0 ">
             <iframe width="390" height="215" className="rounded-lg" src="https://www.youtube.com/embed/DSj8K4wcoz4?si=LvUCZ0_xD0hu-bEI?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         
             </div>
           
-          <div className="mr-4">
+          <div className="ml-4 mr-4 lg:ml-0 lg:mr-4">
           <iframe width="390" height="215" className="rounded-lg" src="https://www.youtube.com/embed/CDyx2kayhGQ?si=LT8m13Wr_67fjS6h" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         
             </div>
