@@ -966,7 +966,7 @@ export default function RootLayout({ children }) {
                 <div className="border-b-2">
                   <a
                     className="flex flex-wrap"
-                    href="https://passionistsnuns.org"
+                    href="https://passionistnuns.org"
                     title=""
                   >
                     Nuns, Passionists, website
