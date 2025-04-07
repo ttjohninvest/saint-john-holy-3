@@ -963,7 +963,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </div>
 
-                <div className="border-b-2">
+                <div className="border-b-2 bg-orange-500 rounded-md p-2">
                   <a
                     className="flex flex-wrap"
                     href="https://passionistnuns.org"
