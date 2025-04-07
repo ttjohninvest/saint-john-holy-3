@@ -164,6 +164,17 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-8"
+              src="/mother-catherine-marie.avif"
+              alt="Mother Catherine Marie"
+              title="Mother Catherine Marie"
+            ></img>
+          </div>
+
+          <div className="rounded-lg">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-8"
               src="/catherine-mcauley-sisters-of-mercy.avif"
               alt="Catherine McCauley Sisters of Mercy"
               title="Catherine McCauley Sisters of Mercy"
