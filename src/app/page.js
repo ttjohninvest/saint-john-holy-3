@@ -618,6 +618,16 @@ export default function page({ children }) {
               title="Playing harp with Emma singing Rieu"
             ></img>
           </div>
+          <div className="rounded-lg">
+            <img
+              width="100"
+              height="150"
+              className="w-full mt-4"
+              src="/Kamilia-Valieva.avif"
+              alt="KamiliaValieva"
+              title="Kamilia-Valieva"
+            ></img>
+          </div>
         </div>
       </div>
     </div>
