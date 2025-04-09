@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className=" bg-orange-500 rounded-md p-2">
+                <div className=" bg-orange-500 rounded-md p-2 mb-2">
                   <a
                     className="flex flex-wrap"
                     href="https://www.hawthorne-dominicans.org/rose-hawthorne"
