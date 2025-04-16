@@ -144,13 +144,13 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2 bg-orange-500 mb-2">
                   <Link href="/precious-doggie-being-adopted" title="Precious doggie being adopted">
                     Precious doggie being adopted
                   </Link>
                 </div>
 
-                <div className="border-b-2 bg-orange-500">
+                <div className="border-b-2 bg-orange-500 mb-2">
                   <Link href="/precious-doggies-being-adopted" title="Precious doggies being adopted">
                     Precious doggies being adopted
                   </Link>
