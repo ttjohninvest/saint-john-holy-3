@@ -144,6 +144,29 @@ export default function RootLayout({ children }) {
                   </a>
                 </div>
 
+                <div className="border-b-2 bg-orange-500">
+                  <Link href="/precious-doggie-being-adopted" title="Precious doggie being adopted">
+                    Precious doggie being adopted
+                  </Link>
+                </div>
+
+                <div className="border-b-2 bg-orange-500">
+                  <Link href="/precious-doggies-being-adopted" title="Precious doggies being adopted">
+                    Precious doggies being adopted
+                  </Link>
+                </div>
+
+
+             
+
+
+
+
+
+
+
+
+
                 <div className=" bg-orange-500 rounded-md p-2 mb-2">
                   <a
                     className="flex flex-wrap"
