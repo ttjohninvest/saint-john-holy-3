@@ -153,7 +153,7 @@ export default function page({ children }) {
               width="100"
               height="100"
               className="w-full mt-4"
-              src="/mary-jesus-pope-francis-together.png"
+              src="/mary-jesus-pope-francis-together.avif"
               alt="Mary, Jesus, and Pope Francis together"
               title="Mary, Jesus, and Pope Francis together"
             ></img>
