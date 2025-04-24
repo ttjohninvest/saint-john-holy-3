@@ -152,6 +152,16 @@ export default function page({ children }) {
             <img
               width="100"
               height="100"
+              className="w-full mt-4"
+              src="/mary-jesus-pope-francis-together.png"
+              alt="Mary, Jesus, and Pope Francis together"
+              title="Mary, Jesus, and Pope Francis together"
+            ></img>
+          </div>
+          <div className="rounded-lg">
+            <img
+              width="100"
+              height="100"
               className="w-full mt-8"
               src="/pope-is-released-from-hospital.avif"
               alt="Pope is released from hospital, yes"
