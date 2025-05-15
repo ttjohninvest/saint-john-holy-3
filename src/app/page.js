@@ -148,6 +148,16 @@ export default function page({ children }) {
             recently and I love them both, The Gospel of John, English Version
             The song of Saint Bernadette, movie.
           </div>
+           <div className="rounded-lg">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/girl-in-yellow-shirt-is-so-happy-to-see-the-new-pope.avif"
+              alt="girl in yellow shirt is so happy to see the new pope"
+              title="girl in yellow shirt is so happy to see the new pope"
+            ></img>
+          </div>
           <div className="rounded-lg">
             <img
               width="100"
