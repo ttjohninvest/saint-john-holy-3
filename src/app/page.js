@@ -148,6 +148,16 @@ export default function page({ children }) {
             recently and I love them both, The Gospel of John, English Version
             The song of Saint Bernadette, movie.
           </div>
+            <div className="rounded-lg">
+            <img
+              width="100"
+              height="100"
+              className="w-full mt-4"
+              src="/jesus1.avif"
+              alt=""
+              title=""
+            ></img>
+          </div>
            <div className="rounded-lg">
             <img
               width="100"
