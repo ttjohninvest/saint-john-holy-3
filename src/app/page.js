@@ -155,7 +155,7 @@ export default function page({ children }) {
               className="w-full mt-4"
               src="/jesus1.avif"
               alt=""
-              title=""
+              title="Jesus Christ with some of his friends"
             ></img>
           </div>
            <div className="rounded-lg">
